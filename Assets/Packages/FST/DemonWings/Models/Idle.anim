@@ -1,0 +1,3316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Idle
+  serializedVersion: 7
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.09038869, y: 0.030597562, z: 0.31416345, w: 0.94456184}
+        inSlope: {x: 0.0005105708, y: 0.0016152079, z: -0.016299501, w: 0.005415457}
+        outSlope: {x: 0.0005105708, y: 0.0016152079, z: -0.016299501, w: 0.005415457}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.791667
+        value: {x: -0.08953206, y: 0.033099074, z: 0.28824893, w: 0.95278597}
+        inSlope: {x: 0.0015100722, y: 0.004185332, z: -0.043942116, w: 0.013292926}
+        outSlope: {x: 0.0015100722, y: 0.004185332, z: -0.043942116, w: 0.013292926}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.083334
+        value: {x: -0.09019986, y: 0.031196155, z: 0.30815074, w: 0.94653785}
+        inSlope: {x: -0.0012537582, y: -0.003866686, z: 0.039241925, w: -0.012765214}
+        outSlope: {x: -0.0012537582, y: -0.003866686, z: 0.039241925, w: -0.012765214}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458334
+        value: {x: -0.09045573, y: 0.030353082, z: 0.316474, w: 0.94379056}
+        inSlope: {x: 0.025075281, y: 0.008275593, z: -0.00009299288, w: 0.0021372195}
+        outSlope: {x: 0.025075281, y: 0.008275593, z: -0.00009299288, w: 0.0021372195}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.5656426, y: 0.277717, z: 0.5597784, w: 0.53811836}
+        inSlope: {x: 0.0031043957, y: -0.0093186, z: -0.0029601112, w: 0.011114516}
+        outSlope: {x: 0.0031043957, y: -0.0093186, z: -0.0029601112, w: 0.011114516}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666985
+        value: {x: -0.5655067, y: 0.27729452, z: 0.55964816, w: 0.5386131}
+        inSlope: {x: 0.003421042, y: -0.010974443, z: -0.003295158, w: 0.012644194}
+        outSlope: {x: 0.003421042, y: -0.010974443, z: -0.003295158, w: 0.012644194}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.95833397
+        value: {x: -0.5337617, y: 0.19522965, z: 0.53259975, w: 0.6271534}
+        inSlope: {x: 0.033772334, y: -0.07575065, z: -0.029819824, w: 0.07770491}
+        outSlope: {x: 0.033772334, y: -0.07575065, z: -0.029819824, w: 0.07770491}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.916667
+        value: {x: -0.55301476, y: 0.24020217, z: 0.549219, w: 0.57865024}
+        inSlope: {x: -0.043028027, y: 0.10712804, z: 0.03665443, w: -0.12035945}
+        outSlope: {x: -0.043028027, y: 0.10712804, z: 0.03665443, w: -0.12035945}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.5663549, y: 0.27522755, z: 0.5603966, w: 0.53803104}
+        inSlope: {x: -0.005935383, y: 0.016884184, z: 0.0048892973, w: -0.020522881}
+        outSlope: {x: -0.005935383, y: 0.016884184, z: 0.0048892973, w: -0.020522881}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/BottomFlap.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.078268655, y: 0.093848936, z: 0.16316685, w: 0.9790018}
+        inSlope: {x: -0.0031876361, y: 0.0104809385, z: 0.015956067, w: -0.0039458987}
+        outSlope: {x: -0.0031876361, y: 0.0104809385, z: 0.015956067, w: -0.0039458987}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666985
+        value: {x: -0.07841205, y: 0.09431948, z: 0.16388266, w: 0.97882473}
+        inSlope: {x: -0.0037000792, y: 0.0121197365, z: 0.018424848, w: -0.004559721}
+        outSlope: {x: -0.0037000792, y: 0.0121197365, z: 0.018424848, w: -0.004559721}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.95833397
+        value: {x: -0.0992748, y: 0.15912409, z: 0.26276875, w: 0.94645476}
+        inSlope: {x: -0.018336441, y: 0.05841887, z: 0.08895663, w: -0.036407348}
+        outSlope: {x: -0.018336441, y: 0.05841887, z: 0.08895663, w: -0.036407348}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.916667
+        value: {x: -0.08800261, y: 0.12358077, z: 0.20861036, w: 0.96616}
+        inSlope: {x: 0.027682062, y: -0.086414665, z: -0.1318065, w: 0.042045273}
+        outSlope: {x: 0.027682062, y: -0.086414665, z: -0.1318065, w: 0.042045273}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.07877499, y: 0.0951267, z: 0.16515027, w: 0.9785386}
+        inSlope: {x: 0.005662632, y: -0.017206073, z: -0.026336642, w: 0.0061562033}
+        outSlope: {x: 0.005662632, y: -0.017206073, z: -0.026336642, w: 0.0061562033}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/BottomFlap.l/BottomFlap1.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00000023446046, y: 0.000000049585623, z: -0.00000019687141,
+          w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.00000023446046, y: 0.000000049585623, z: -0.00000019687141,
+          w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/BottomFlap.l/BottomFlap1.l/BottomFlap2.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.102498844, y: -0.5635706, z: -0.34986502, w: 0.74145806}
+        inSlope: {x: -0.004427563, y: -0.017739765, z: 0.0012857282, w: -0.013190515}
+        outSlope: {x: -0.004427563, y: -0.017739765, z: 0.0012857282, w: -0.013190515}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.41666698
+        value: {x: -0.10797315, y: -0.5846798, z: -0.34785375, w: 0.7249064}
+        inSlope: {x: -0.024778236, y: -0.093761444, z: 0.009776041, w: -0.07464424}
+        outSlope: {x: -0.024778236, y: -0.093761444, z: 0.009776041, w: -0.07464424}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.333334
+        value: {x: -0.12200935, y: -0.6409853, z: -0.34171402, w: 0.676375}
+        inSlope: {x: 0.00043585268, y: 0.031453542, z: 0.0028023953, w: 0.031284742}
+        outSlope: {x: 0.00043585268, y: 0.031453542, z: 0.0028023953, w: 0.031284742}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.375
+        value: {x: -0.10213821, y: -0.5625273, z: -0.349994, w: 0.74204785}
+        inSlope: {x: 0.0012677854, y: 0.020448647, z: 0.0022301183, w: 0.01674714}
+        outSlope: {x: 0.0012677854, y: 0.020448647, z: 0.0022301183, w: 0.01674714}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.102045596, y: -0.5610391, z: -0.3498321, w: 0.74326646}
+        inSlope: {x: 0.0009612138, y: 0.015359492, z: 0.0016663601, w: 0.012575867}
+        outSlope: {x: 0.0009612138, y: 0.015359492, z: 0.0016663601, w: 0.012575867}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.22188765, y: 0.4850871, z: 0.83372474, w: 0.1426805}
+        inSlope: {x: -0.0024275263, y: -0.00092769065, z: -0.0007791837, w: 0.0037941476}
+        outSlope: {x: -0.0024275263, y: -0.00092769065, z: -0.0007791837, w: 0.0037941476}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.791667
+        value: {x: -0.22871178, y: 0.48369956, z: 0.8318268, w: 0.14761387}
+        inSlope: {x: 0.016728632, y: 0.0031159879, z: 0.004553999, w: -0.00995235}
+        outSlope: {x: 0.016728632, y: 0.0031159879, z: 0.004553999, w: -0.00995235}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.2218805, y: 0.48501924, z: 0.83367133, w: 0.14339823}
+        inSlope: {x: 0.004838891, y: 0.001037867, z: 0.0012742124, w: -0.0032932311}
+        outSlope: {x: 0.004838891, y: 0.001037867, z: 0.0012742124, w: -0.0032932311}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlap.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.17966184, y: -0.13083702, z: 0.15545607, w: 0.96262884}
+        inSlope: {x: -0.0053702765, y: -0.012145298, z: 0.016677141, w: -0.005110604}
+        outSlope: {x: -0.0053702765, y: -0.012145298, z: 0.016677141, w: -0.005110604}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: -0.18671678, y: -0.14661582, z: 0.17727345, w: 0.95509934}
+        inSlope: {x: -0.025547955, y: -0.05650291, z: 0.078158244, w: -0.028181177}
+        outSlope: {x: -0.025547955, y: -0.05650291, z: 0.078158244, w: -0.028181177}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.5
+        value: {x: -0.19695866, y: -0.16950464, z: 0.2089573, w: 0.94276845}
+        inSlope: {x: 0.017594453, y: 0.03973974, z: -0.055050373, w: 0.023010567}
+        outSlope: {x: 0.017594453, y: 0.03973974, z: -0.055050373, w: 0.023010567}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.17890005, y: -0.12969512, z: 0.15392111, w: 0.96304226}
+        inSlope: {x: 0.0052445894, y: 0.011564784, z: -0.015996404, w: 0.0054786857}
+        outSlope: {x: 0.0052445894, y: 0.011564784, z: -0.015996404, w: 0.0054786857}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlap.l/MidFlap1.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.000020686924, y: 0.0001497258, z: -0.00013976471, w: 1.0000002}
+        inSlope: {x: 0.0010307659, y: -0.0073951553, z: 0.0068996847, w: -0.000004502443}
+        outSlope: {x: 0.0010307659, y: -0.0073951553, z: 0.0068996847, w: -0.000004502443}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666985
+        value: {x: 0.000024596298, y: -0.00017515582, z: 0.0001633501, w: 1}
+        inSlope: {x: 0.0011435447, y: -0.008204298, z: 0.007654617, w: -0.000005006752}
+        outSlope: {x: 0.0011435447, y: -0.008204298, z: 0.007654617, w: -0.000005006752}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.416667
+        value: {x: 0.006479455, y: -0.04650905, z: 0.043393996, w: 0.9979539}
+        inSlope: {x: -0.004644394, y: 0.033335224, z: -0.031102344, w: 0.00292895}
+        outSlope: {x: -0.004644394, y: 0.033335224, z: -0.031102344, w: 0.00292895}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.000075006305, y: -0.00053736474, z: 0.0005013169, w: 0.99998474}
+        inSlope: {x: -0.0017584653, y: 0.012623155, z: -0.011777734, w: 0.0003627671}
+        outSlope: {x: -0.0017584653, y: 0.012623155, z: -0.011777734, w: 0.0003627671}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlap.l/MidFlap1.l/MidFlap2.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.07373208, y: 0.76180947, z: 0.6353328, w: 0.1028011}
+        inSlope: {x: -0.01316011, y: -0.0027263477, z: -0.00012363693, w: 0.0108379135}
+        outSlope: {x: -0.01316011, y: -0.0027263477, z: -0.00012363693, w: 0.0108379135}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.08333397
+        value: {x: -0.0744189, y: 0.7616388, z: 0.6353513, w: 0.10342611}
+        inSlope: {x: -0.0021909247, y: -0.0012130783, z: 0.0006516003, w: 0.0033550998}
+        outSlope: {x: -0.0021909247, y: -0.0012130783, z: 0.0006516003, w: 0.0033550998}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.875
+        value: {x: -0.07644572, y: 0.76116866, z: 0.63504547, w: 0.10721758}
+        inSlope: {x: 0.008087249, y: 0.0013883167, z: 0.0015864433, w: -0.01348754}
+        outSlope: {x: 0.008087249, y: 0.0013883167, z: 0.0015864433, w: -0.01348754}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.073501594, y: 0.76169395, z: 0.6355894, w: 0.10232647}
+        inSlope: {x: 0.00248661, y: 0.00048998254, z: 0.0003819139, w: -0.0040847915}
+        outSlope: {x: 0.00248661, y: 0.00048998254, z: 0.0003819139, w: -0.0040847915}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlapA.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.3237422, y: -0.0010734079, z: 0.044054814, w: 0.94511896}
+        inSlope: {x: 0.0022829797, y: -0.000073479445, z: 0.01526774, w: 0.00005368119}
+        outSlope: {x: 0.0022829797, y: -0.000073479445, z: 0.01526774, w: 0.00005368119}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666985
+        value: {x: -0.3236422, y: -0.001076764, z: 0.04473832, w: 0.94512063}
+        inSlope: {x: 0.002518754, y: -0.00008773411, z: 0.017560467, w: 0.000025033762}
+        outSlope: {x: 0.002518754, y: -0.00008773411, z: 0.017560467, w: 0.000025033762}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.083334
+        value: {x: -0.30606845, y: -0.001659299, z: 0.14841756, w: 0.9403678}
+        inSlope: {x: 0.009653846, y: -0.00024407858, z: 0.04880683, w: -0.0045461697}
+        outSlope: {x: 0.009653846, y: -0.00024407858, z: 0.04880683, w: -0.0045461697}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.25
+        value: {x: -0.32337144, y: -0.0011610012, z: 0.052327048, w: 0.9448235}
+        inSlope: {x: -0.011784956, y: 0.00036421983, z: -0.07150401, w: -0.000054354314}
+        outSlope: {x: -0.011784956, y: 0.00036421983, z: -0.07150401, w: -0.000054354314}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.3249662, y: -0.0011104834, z: 0.042540062, w: 0.9448172}
+        inSlope: {x: -0.0040425574, y: 0.0001353503, z: -0.025472688, w: -0.000011307852}
+        outSlope: {x: -0.0040425574, y: 0.0001353503, z: -0.025472688, w: -0.000011307852}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlapA.l/MidFlapA1.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.21579885, y: 0.019003822, z: 0.081321366, w: 0.97286}
+        inSlope: {x: -0.00028467405, y: -0.0047879084, z: 0.005690442, w: -0.00044774765}
+        outSlope: {x: -0.00028467405, y: -0.0047879084, z: 0.005690442, w: -0.00044774765}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.83333397
+        value: {x: -0.2670578, y: -0.07381506, z: 0.18657191, w: 0.9425616}
+        inSlope: {x: -0.06683873, y: -0.12702799, z: 0.14237072, w: -0.05700609}
+        outSlope: {x: -0.06683873, y: -0.12702799, z: 0.14237072, w: -0.05700609}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.5
+        value: {x: -0.27276313, y: -0.08471535, z: 0.19877118, w: 0.93750393}
+        inSlope: {x: 0.053002767, y: 0.10214198, z: -0.1141627, w: 0.048791334}
+        outSlope: {x: 0.053002767, y: 0.10214198, z: -0.1141627, w: 0.048791334}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.25
+        value: {x: -0.22074136, y: 0.010140592, z: 0.091491245, w: 0.9709788}
+        inSlope: {x: 0.04618088, y: 0.079854585, z: -0.09136264, w: 0.01833281}
+        outSlope: {x: 0.04618088, y: 0.079854585, z: -0.09136264, w: 0.01833281}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.21490242, y: 0.020280136, z: 0.07988529, w: 0.97327745}
+        inSlope: {x: 0.0126521895, y: 0.022227526, z: -0.025473958, w: 0.0048585176}
+        outSlope: {x: 0.0126521895, y: 0.022227526, z: -0.025473958, w: 0.0048585176}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlapA.l/MidFlapA1.l/MidFlapA2.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.0000030389053, y: 0.000003012828, z: 0.0000001611188, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.0000030389053, y: 0.000003012828, z: 0.0000001611188, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlapA.l/MidFlapA1.l/MidFlapA2.l/MidFlapA3.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.0062356093, y: 0.88881516, z: 0.45813686, w: -0.009376936}
+        inSlope: {x: -0.0004740139, y: 0.0012891624, z: -0.0029211051, w: 0.0014557536}
+        outSlope: {x: -0.0004740139, y: 0.0012891624, z: -0.0029211051, w: 0.0014557536}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666985
+        value: {x: -0.0062516048, y: 0.88884366, z: 0.4580728, w: -0.009333961}
+        inSlope: {x: -0.00030099743, y: 0.000041484516, z: -0.00007224028, w: 0.0005828396}
+        outSlope: {x: -0.00030099743, y: 0.000041484516, z: -0.00007224028, w: 0.0005828396}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.125
+        value: {x: -0.0068775397, y: 0.88892895, z: 0.45792142, w: -0.008121351}
+        inSlope: {x: -0.00030004536, y: 0.000040769723, z: -0.000072956376, w: 0.00058153865}
+        outSlope: {x: -0.00030004536, y: 0.000040769723, z: -0.000072956376, w: 0.00058153865}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.0062750746, y: 0.88997716, z: 0.45601043, w: -0.0075133173}
+        inSlope: {x: 0.0055958047, y: 0.009329076, z: -0.017947903, w: 0.0038386919}
+        outSlope: {x: 0.0055958047, y: 0.009329076, z: -0.017947903, w: 0.0038386919}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/TopFlap.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.30984902, y: 0.05357137, z: 0.10362283, w: 0.9436099}
+        inSlope: {x: 0.0020516557, y: 0.005354255, z: 0.014950969, w: -0.0013338182}
+        outSlope: {x: 0.0020516557, y: 0.005354255, z: 0.014950969, w: -0.0013338182}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.3093861, y: 0.05476592, z: 0.10695192, w: 0.9433145}
+        inSlope: {x: 0.0035565821, y: 0.00910518, z: 0.025342837, w: -0.0022394485}
+        outSlope: {x: 0.0035565821, y: 0.00910518, z: 0.025342837, w: -0.0022394485}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.5
+        value: {x: -0.2996114, y: 0.06778529, z: 0.14150341, w: 0.94107115}
+        inSlope: {x: -0.010568653, y: -0.013717756, z: -0.03643453, w: 0.003098498}
+        outSlope: {x: -0.010568653, y: -0.013717756, z: -0.03643453, w: 0.003098498}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.3092551, y: 0.054545194, z: 0.10625738, w: 0.94343483}
+        inSlope: {x: -0.0044680703, y: -0.0061456957, z: -0.016326388, w: 0.0008857515}
+        outSlope: {x: -0.0044680703, y: -0.0061456957, z: -0.016326388, w: 0.0008857515}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/TopFlap.l/TopFlap1.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13220654, y: 0.0054345448, z: 0.048191953, w: 0.9900361}
+        inSlope: {x: -0.007930921, y: 0.00039748405, z: 0.019585453, w: -0.002046742}
+        outSlope: {x: -0.007930921, y: 0.00039748405, z: 0.019585453, w: -0.002046742}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666985
+        value: {x: -0.13256215, y: 0.0054523842, z: 0.04907126, w: 0.9899443}
+        inSlope: {x: -0.0091485875, y: 0.00045935833, z: 0.022648802, w: -0.002363902}
+        outSlope: {x: -0.0091485875, y: 0.00045935833, z: 0.022648802, w: -0.002363902}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.916667
+        value: {x: -0.19356716, y: 0.0070832106, z: 0.16671209, w: 0.966793}
+        inSlope: {x: -0.063366346, y: 0.0016755352, z: 0.124184966, w: -0.034069516}
+        outSlope: {x: -0.063366346, y: 0.0016755352, z: 0.124184966, w: -0.034069516}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.708334
+        value: {x: -0.17910749, y: 0.006699825, z: 0.13848475, w: 0.9740111}
+        inSlope: {x: 0.08163515, y: -0.0021701953, z: -0.15873286, w: 0.037575386}
+        outSlope: {x: 0.08163515, y: -0.0021701953, z: -0.15873286, w: 0.037575386}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.13273533, y: 0.0054401383, z: 0.04898003, w: 0.9899223}
+        inSlope: {x: 0.009832238, y: -0.0002605899, z: -0.018582784, w: 0.0024083809}
+        outSlope: {x: 0.009832238, y: -0.0002605899, z: -0.018582784, w: 0.0024083809}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/TopFlap.l/TopFlap1.l/TopFlap2.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.00000044889754, y: -0.00000040719175, z: -0.00000021226882, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.00000044889754, y: -0.00000040719175, z: -0.00000021226882, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/TopFlap.l/TopFlap1.l/TopFlap2.l/TopFlap3.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.090602525, y: -0.029774979, z: -0.32235345, w: 0.9417938}
+        inSlope: {x: 0.0005881827, y: -0.0014470912, z: 0.015407754, w: 0.0052203946}
+        outSlope: {x: 0.0005881827, y: -0.0014470912, z: 0.015407754, w: 0.0052203946}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.916667
+        value: {x: -0.089704454, y: -0.03210829, z: -0.29756755, w: 0.9499346}
+        inSlope: {x: 0.001081369, y: -0.0027213036, z: 0.029172912, w: 0.009150912}
+        outSlope: {x: 0.001081369, y: -0.0027213036, z: 0.029172912, w: 0.009150912}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.416667
+        value: {x: -0.09061923, y: -0.029621238, z: -0.32330337, w: 0.9414806}
+        inSlope: {x: -0.0023138346, y: 0.0023633656, z: -0.037858553, w: -0.013149161}
+        outSlope: {x: -0.0023138346, y: 0.0023633656, z: -0.037858553, w: -0.013149161}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.09275021, y: -0.028876767, z: -0.32483858, w: 0.9408433}
+        inSlope: {x: -0.10447756, y: 0.034994334, z: -0.035206072, w: -0.018715346}
+        outSlope: {x: -0.10447756, y: 0.034994334, z: -0.035206072, w: -0.018715346}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.5619383, y: -0.5361252, z: 0.5672225, w: -0.27443177}
+        inSlope: {x: 0.01018926, y: -0.01176657, z: -0.0066116196, w: -0.012152774}
+        outSlope: {x: 0.01018926, y: -0.01176657, z: -0.0066116196, w: -0.012152774}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.45833397
+        value: {x: -0.54994106, y: -0.55100185, z: 0.55691904, w: -0.2894875}
+        inSlope: {x: 0.0448274, y: -0.05951166, z: -0.04569287, w: -0.059765935}
+        outSlope: {x: 0.0448274, y: -0.05951166, z: -0.04569287, w: -0.059765935}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.458334
+        value: {x: -0.5271644, y: -0.5795801, z: 0.5337126, w: -0.31833228}
+        inSlope: {x: -0.031452082, y: 0.037609033, z: 0.0320107, w: 0.03731721}
+        outSlope: {x: -0.031452082, y: 0.037609033, z: 0.0320107, w: 0.03731721}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.56161183, y: -0.5348067, z: 0.56880134, w: -0.27385333}
+        inSlope: {x: -0.009511817, y: 0.012890054, z: 0.009686766, w: 0.01260805}
+        outSlope: {x: -0.009511817, y: 0.012890054, z: 0.009686766, w: 0.01260805}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/BottomFlap.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.07856244, y: -0.09404341, z: 0.16296923, w: 0.978994}
+        inSlope: {x: 0.01932505, y: 0.0011120648, z: 0.0011314414, w: -0.0016745854}
+        outSlope: {x: 0.01932505, y: 0.0011120648, z: 0.0011314414, w: -0.0016745854}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.08333397
+        value: {x: 0.08043424, y: -0.093935125, z: 0.16308606, w: 0.97883064}
+        inSlope: {x: 0.025711825, y: 0.0014933527, z: 0.0016826536, w: -0.0022566495}
+        outSlope: {x: 0.025711825, y: 0.0014933527, z: 0.0016826536, w: -0.0022566495}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.416667
+        value: {x: 0.15444884, y: -0.09421202, z: 0.1626304, w: 0.96995926}
+        inSlope: {x: -0.0537296, y: -0.00016298765, z: -0.0002483707, w: 0.008572275}
+        outSlope: {x: -0.0537296, y: -0.00016298765, z: -0.0002483707, w: 0.008572275}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.08023904, y: -0.093941055, z: 0.1634716, w: 0.9787604}
+        inSlope: {x: -0.020385586, y: 0.00015274352, z: 0.0004077951, w: 0.002116124}
+        outSlope: {x: -0.020385586, y: 0.00015274352, z: 0.0004077951, w: 0.002116124}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/BottomFlap.r/BottomFlap1.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.0000014931428, y: -0.0000012180535, z: 0.00000023143366, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.0000014931428, y: -0.0000012180535, z: 0.00000023143366, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/BottomFlap.r/BottomFlap1.r/BottomFlap2.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.35185027, y: -0.74016994, z: 0.10586068, w: 0.5632901}
+        inSlope: {x: 0.004033521, y: 0.01088905, z: 0.0048039486, w: 0.011205322}
+        outSlope: {x: 0.004033521, y: 0.01088905, z: 0.0048039486, w: 0.011205322}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.541667
+        value: {x: 0.35707706, y: -0.7238637, z: 0.11446226, w: 0.57915086}
+        inSlope: {x: 0.016131397, y: 0.05536395, z: 0.031552732, w: 0.053012922}
+        outSlope: {x: 0.016131397, y: 0.05536395, z: 0.031552732, w: 0.053012922}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.541667
+        value: {x: 0.36226594, y: -0.7054544, z: 0.12471412, w: 0.5962751}
+        inSlope: {x: -0.011682898, y: -0.043556597, z: -0.023888286, w: -0.039445337}
+        outSlope: {x: -0.011682898, y: -0.043556597, z: -0.023888286, w: -0.039445337}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.351429, y: -0.7417226, z: 0.10395002, w: 0.56170315}
+        inSlope: {x: -0.0043523726, y: -0.014040924, z: -0.008189132, w: -0.013895727}
+        outSlope: {x: -0.0043523726, y: -0.014040924, z: -0.008189132, w: -0.013895727}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.21019094, y: -0.5580694, z: 0.78590226, w: 0.16350353}
+        inSlope: {x: 0.0063459147, y: 0.0028333003, z: -0.00085080997, w: 0.005412115}
+        outSlope: {x: 0.0063459147, y: 0.0028333003, z: -0.00085080997, w: 0.005412115}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.041667
+        value: {x: 0.22339912, y: -0.5539107, z: 0.7820884, w: 0.17780198}
+        inSlope: {x: 0.010485569, y: 0.0022616214, z: -0.0038780873, w: 0.01092956}
+        outSlope: {x: 0.010485569, y: 0.0022616214, z: -0.0038780873, w: 0.01092956}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.20939286, y: -0.55780697, z: 0.78637236, w: 0.16305451}
+        inSlope: {x: -0.008832776, y: -0.0027249227, z: 0.002471227, w: -0.008912591}
+        outSlope: {x: -0.008832776, y: -0.0027249227, z: 0.002471227, w: -0.008912591}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlap.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.32601395, y: 0.114209756, z: 0.18902747, w: 0.91918933}
+        inSlope: {x: 0.010725663, y: 0.0016004764, z: -0.0016238597, w: -0.003708546}
+        outSlope: {x: 0.010725663, y: 0.0016004764, z: -0.0016238597, w: -0.003708546}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.125
+        value: {x: 0.33646354, y: 0.11567534, z: 0.18740371, w: 0.91558254}
+        inSlope: {x: 0.001756758, y: -0.00024638948, z: -0.0005006915, w: -0.00051144045}
+        outSlope: {x: 0.001756758, y: -0.00024638948, z: -0.0005006915, w: -0.00051144045}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.32692233, y: 0.112916596, z: 0.18821117, w: 0.91919243}
+        inSlope: {x: -0.008633089, y: -0.0023699363, z: 0.0007873456, w: 0.00324351}
+        outSlope: {x: -0.008633089, y: -0.0023699363, z: 0.0007873456, w: 0.00324351}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlap.r/MidFlap1.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000010516015, y: -0.00015211944, z: -0.00012515044, w: 1.0000002}
+        inSlope: {x: -0.00054327375, y: 0.0075357696, z: 0.006180565, w: -0.000004502443}
+        outSlope: {x: -0.00054327375, y: 0.0075357696, z: 0.006180565, w: -0.000004502443}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666985
+        value: {x: -0.000013350786, y: 0.00017893959, z: 0.00014637219, w: 1}
+        inSlope: {x: -0.0006027099, y: 0.008360298, z: 0.006856813, w: -0.000005006752}
+        outSlope: {x: -0.0006027099, y: 0.008360298, z: 0.006856813, w: -0.000005006752}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.416667
+        value: {x: -0.0034116465, y: 0.0473931, z: 0.03887101, w: 0.9981139}
+        inSlope: {x: 0.0024456084, y: -0.03397309, z: -0.027864676, w: 0.00270007}
+        outSlope: {x: 0.0024456084, y: -0.03397309, z: -0.027864676, w: 0.00270007}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.000039849998, y: 0.00054799137, z: 0.00044907193, w: 0.99998593}
+        inSlope: {x: 0.0009257428, y: -0.012862357, z: -0.010549576, w: 0.0003343953}
+        outSlope: {x: 0.0009257428, y: -0.012862357, z: -0.010549576, w: 0.0003343953}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlap.r/MidFlap1.r/MidFlap2.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.077241614, y: 0.76902825, z: -0.6263205, w: -0.101894744}
+        inSlope: {x: -0.005045767, y: -0.0022842807, z: -0.0007299063, w: -0.009323263}
+        outSlope: {x: -0.005045767, y: -0.0022842807, z: -0.0007299063, w: -0.009323263}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.791667
+        value: {x: -0.08577117, y: 0.76589465, z: -0.62647384, w: -0.11652996}
+        inSlope: {x: -0.017492697, y: -0.006023123, z: 0.00060224073, w: -0.029945295}
+        outSlope: {x: -0.017492697, y: -0.006023123, z: 0.00060224073, w: -0.029945295}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.166667
+        value: {x: -0.076531954, y: 0.7688861, z: -0.62674594, w: -0.10073033}
+        inSlope: {x: 0.014261822, y: 0.0037300303, z: -0.0010507026, w: 0.024175996}
+        outSlope: {x: 0.014261822, y: 0.0037300303, z: -0.0010507026, w: 0.024175996}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.07378261, y: 0.76960856, z: -0.62694854, w: -0.09603515}
+        inSlope: {x: 0.0051695067, y: 0.0013753477, z: -0.0003772975, w: 0.008969806}
+        outSlope: {x: 0.0051695067, y: 0.0013753477, z: -0.0003772975, w: 0.008969806}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlapA.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.3392716, y: 0.001793866, z: 0.043067127, w: 0.93970865}
+        inSlope: {x: 0.0016623553, y: 0.0002752227, z: 0.01734094, w: -0.0014676604}
+        outSlope: {x: 0.0016623553, y: 0.0002752227, z: 0.01734094, w: -0.0014676604}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.33959034, y: 0.0018526638, z: 0.04692748, w: 0.9394002}
+        inSlope: {x: 0.002177937, y: 0.00043556368, z: 0.029381631, w: -0.0022594756}
+        outSlope: {x: 0.002177937, y: 0.00043556368, z: 0.029381631, w: -0.0022594756}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.458334
+        value: {x: 0.3451662, y: 0.0025524672, z: 0.08903159, w: 0.9343057}
+        inSlope: {x: -0.0023574922, y: -0.00034652336, z: -0.038151912, w: 0.0045032697}
+        outSlope: {x: -0.0023574922, y: -0.00034652336, z: -0.038151912, w: 0.0045032697}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.33904704, y: 0.0018100735, z: 0.04540245, w: 0.9396573}
+        inSlope: {x: -0.0031518803, y: -0.00035100576, z: -0.016475255, w: 0.0021509593}
+        outSlope: {x: -0.0031518803, y: -0.00035100576, z: -0.016475255, w: 0.0021509593}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlapA.r/MidFlapA1.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.00903268, y: -0.035480816, z: 0.075600535, w: 0.9964658}
+        inSlope: {x: 0.004324023, y: 0.0026325681, z: 0.005331565, w: -0.00035190315}
+        outSlope: {x: 0.004324023, y: 0.0026325681, z: 0.005331565, w: -0.00035190315}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.83333397
+        value: {x: 0.08887614, y: 0.013505622, z: 0.17343394, w: 0.9807341}
+        inSlope: {x: 0.10904978, y: 0.06742975, z: 0.1327943, w: -0.034248002}
+        outSlope: {x: 0.10904978, y: 0.06742975, z: 0.1327943, w: -0.034248002}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.541667
+        value: {x: 0.09439484, y: 0.016920049, z: 0.18015127, w: 0.97895294}
+        inSlope: {x: -0.09607197, y: -0.059470847, z: -0.11688995, w: 0.031755682}
+        outSlope: {x: -0.09607197, y: -0.059470847, z: -0.11688995, w: 0.031755682}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.375
+        value: {x: 0.01035025, y: -0.034678604, z: 0.07722476, w: 0.99635667}
+        inSlope: {x: -0.030710598, y: -0.01870169, z: -0.037852295, w: 0.0026285825}
+        outSlope: {x: -0.030710598, y: -0.01870169, z: -0.037852295, w: 0.0026285825}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.008282974, y: -0.0359375, z: 0.07467674, w: 0.9965335}
+        inSlope: {x: -0.01923997, y: -0.01171635, z: -0.023714373, w: 0.0016438961}
+        outSlope: {x: -0.01923997, y: -0.01171635, z: -0.023714373, w: 0.0016438961}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlapA.r/MidFlapA1.r/MidFlapA2.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.0000006901099, y: 0.0000006128103, z: 0.0000002393499, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.0000006901099, y: 0.0000006128103, z: 0.0000002393499, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlapA.r/MidFlapA1.r/MidFlapA2.r/MidFlapA3.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.0052826526, y: 0.89443284, z: -0.44717038, w: 0.0008212927}
+        inSlope: {x: -0.000000006034971, y: 0, z: 0, w: 0.0000000034645204}
+        outSlope: {x: -0.000000006034971, y: 0, z: 0, w: 0.0000000034645204}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.916667
+        value: {x: 0.0052826474, y: 0.89443284, z: -0.44717038, w: 0.00082129554}
+        inSlope: {x: -0.000000005587893, y: 0, z: 0, w: 0.0000000027939464}
+        outSlope: {x: -0.000000005587893, y: 0, z: 0, w: 0.0000000027939464}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.0052826363, y: 0.89443284, z: -0.44717038, w: 0.0008213007}
+        inSlope: {x: -0.0000000073760758, y: 0, z: 0, w: 0.0000000038556762}
+        outSlope: {x: -0.0000000073760758, y: 0, z: 0, w: 0.0000000038556762}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/TopFlap.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.30353543, y: -0.055054393, z: 0.105656534, w: 0.94535613}
+        inSlope: {x: 0.0068851816, y: 0.0054861605, z: -0.0146223465, w: -0.00034713745}
+        outSlope: {x: 0.0068851816, y: 0.0054861605, z: -0.0146223465, w: -0.00034713745}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.20833397
+        value: {x: 0.30561423, y: -0.053411983, z: 0.10128633, w: 0.945245}
+        inSlope: {x: 0.013339583, y: 0.010484715, z: -0.027869444, w: -0.0007374324}
+        outSlope: {x: 0.013339583, y: 0.010484715, z: -0.027869444, w: -0.0007374324}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.541667
+        value: {x: 0.31951377, y: -0.04231481, z: 0.071811855, w: 0.94390863}
+        inSlope: {x: -0.01722895, y: -0.013975767, z: 0.037089482, w: 0.002380353}
+        outSlope: {x: -0.01722895, y: -0.013975767, z: 0.037089482, w: 0.002380353}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.30495945, y: -0.053881805, z: 0.1025144, w: 0.94528544}
+        inSlope: {x: -0.007782009, y: -0.006119427, z: 0.016254464, w: 0.0005072488}
+        outSlope: {x: -0.007782009, y: -0.006119427, z: 0.016254464, w: 0.0005072488}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/TopFlap.r/TopFlap1.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.11612363, y: -0.0061478727, z: 0.04807093, w: 0.99205303}
+        inSlope: {x: 0.012395775, y: -0.0038052616, z: 0.02090443, w: -0.002529939}
+        outSlope: {x: 0.012395775, y: -0.0038052616, z: 0.02090443, w: -0.002529939}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666985
+        value: {x: 0.11668176, y: -0.006319208, z: 0.04901217, w: 0.9919391}
+        inSlope: {x: 0.014413277, y: -0.0044246, z: 0.024306796, w: -0.0029418245}
+        outSlope: {x: 0.014413277, y: -0.0044246, z: 0.024306796, w: -0.0029418245}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.875
+        value: {x: 0.1871416, y: -0.028249865, z: 0.16934575, w: 0.9672135}
+        inSlope: {x: 0.083951, y: -0.026505927, z: 0.14525709, w: -0.042398386}
+        outSlope: {x: 0.083951, y: -0.026505927, z: 0.14525709, w: -0.042398386}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.583334
+        value: {x: 0.18462107, y: -0.027454445, z: 0.1649864, w: 0.96847343}
+        inSlope: {x: -0.085550845, y: 0.026981793, z: -0.147881, w: 0.042222433}
+        outSlope: {x: -0.085550845, y: 0.026981793, z: -0.147881, w: 0.042222433}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.11662978, y: -0.0063036396, z: 0.04892648, w: 0.9919363}
+        inSlope: {x: -0.012134927, y: 0.0037435328, z: -0.020556716, w: 0.0031051873}
+        outSlope: {x: -0.012134927, y: 0.0037435328, z: -0.020556716, w: 0.0031051873}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/TopFlap.r/TopFlap1.r/TopFlap2.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.0000018253924, y: 0.000002324115, z: -0.00000028905922, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.0000018253924, y: 0.000002324115, z: -0.00000028905922, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/TopFlap.r/TopFlap1.r/TopFlap2.r/TopFlap3.r
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.20790109, y: 1.5997782, z: -0.42010882}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.20790109, y: 1.5997782, z: -0.42010882}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000000037252903, y: 0.6793974, z: 0.00000003966073}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.000000037252903, y: 0.6793974, z: 0.00000003966073}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/BottomFlap.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00000011321866, y: 0.33412185, z: 0.00000007771312}
+        inSlope: {x: -0.0000000056337304, y: 0, z: 0.000000007171726}
+        outSlope: {x: -0.0000000056337304, y: 0, z: 0.000000007171726}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: -0.00000011603552, y: 0.33412185, z: 0.000000081298985}
+        inSlope: {x: -0.0000000056337237, y: -0, z: 0.000000007171759}
+        outSlope: {x: -0.000000005633765, y: -0, z: 0.0000000071715953}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.00000012706828, y: 0.33412188, z: 0.00000009534353}
+        inSlope: {x: -0.000000005633616, y: 0.0000000036492633, z: 0.000000007171614}
+        outSlope: {x: -0.000000005633616, y: 0.0000000036492633, z: 0.000000007171614}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/BottomFlap.l/BottomFlap1.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.000000030890384, y: 0.31861907, z: 0.000000048428774}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.000000030890384, y: 0.31861907, z: 0.000000048428774}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/BottomFlap.l/BottomFlap1.l/BottomFlap2.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000000037252903, y: 0.6793974, z: 0.00000003966073}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.000000037252903, y: 0.6793974, z: 0.00000003966073}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.000000029802322, y: 0.79782194, z: 0.000000037252903}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.000000029802322, y: 0.79782194, z: 0.000000037252903}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlap.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.000000014901161, y: 0.80145, z: 0.000000014901161}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.000000014901161, y: 0.80145, z: 0.000000014901161}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlap.l/MidFlap1.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.000000029802322, y: 0.93998003, z: 0.000000029164857}
+        inSlope: {x: 0, y: 0, z: 0.00000003633651}
+        outSlope: {x: 0, y: 0, z: 0.00000003633651}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: -0.000000029802322, y: 0.93998003, z: 0.0000000473331}
+        inSlope: {x: -0, y: -0, z: 0.00000003633646}
+        outSlope: {x: -0, y: -0, z: 0.000000036336566}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.000000029802322, y: 0.93998003, z: 0.000000118492125}
+        inSlope: {x: 0, y: 0, z: 0.000000036336335}
+        outSlope: {x: 0, y: 0, z: 0.000000036336335}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlap.l/MidFlap1.l/MidFlap2.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.000000029802322, y: 0.79782194, z: 0.000000037252903}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.000000029802322, y: 0.79782194, z: 0.000000037252903}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlapA.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000000003545999, y: 0.77870154, z: 0.00000007922219}
+        inSlope: {x: -9.562257e-10, y: 0, z: 0.000000007769322}
+        outSlope: {x: -9.562257e-10, y: 0, z: 0.000000007769322}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: 0.0000000030678862, y: 0.77870154, z: 0.00000008310684}
+        inSlope: {x: -9.562257e-10, y: -0, z: 0.000000007769306}
+        outSlope: {x: -9.562251e-10, y: -0, z: 0.0000000077694695}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.0000000011952804, y: 0.7787016, z: 0.00000009832176}
+        inSlope: {x: -9.562249e-10, y: 0.0000000072985267, z: 0.000000007769291}
+        outSlope: {x: -9.562249e-10, y: 0.0000000072985267, z: 0.000000007769291}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlapA.l/MidFlapA1.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000000035282568, y: 0.58423245, z: 0.00000013000539}
+        inSlope: {x: -0.000000009577196, y: 0, z: -0.000000012580312}
+        outSlope: {x: -0.000000009577196, y: 0, z: -0.000000012580312}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: 0.000000030493965, y: 0.58423245, z: 0.00000012371525}
+        inSlope: {x: -0.000000009577211, y: -0, z: -0.000000012580209}
+        outSlope: {x: -0.000000009577162, y: -0, z: -0.000000012580603}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.000000011738651, y: 0.58423245, z: 0.000000099078775}
+        inSlope: {x: -0.0000000095771835, y: 0, z: -0.00000001258025}
+        outSlope: {x: -0.0000000095771835, y: 0, z: -0.00000001258025}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlapA.l/MidFlapA1.l/MidFlapA2.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.0000000056775824, y: 0.46148545, z: -0.00000034120265}
+        inSlope: {x: 4.7810916e-10, y: 0, z: -0.000000036575596}
+        outSlope: {x: 4.7810916e-10, y: 0, z: -0.000000036575596}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: 0.0000000059166374, y: 0.46148545, z: -0.0000003594905}
+        inSlope: {x: 4.7811016e-10, y: -0, z: -0.000000036575887}
+        outSlope: {x: 4.781099e-10, y: -0, z: -0.00000003657573}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.0000000068529404, y: 0.46148542, z: -0.00000043111768}
+        inSlope: {x: 4.7811033e-10, y: -0.0000000036492633, z: -0.000000036575692}
+        outSlope: {x: 4.7811033e-10, y: -0.0000000036492633, z: -0.000000036575692}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlapA.l/MidFlapA1.l/MidFlapA2.l/MidFlapA3.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.000000029802322, y: 0.79782194, z: 0.000000037252903}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.000000029802322, y: 0.79782194, z: 0.000000037252903}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/TopFlap.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00000002982224, y: 0.8107716, z: -0.000000020033395}
+        inSlope: {x: -0.000000010040359, y: -0.000000028610234, z: 0.0000000061556973}
+        outSlope: {x: -0.000000010040359, y: -0.000000028610234, z: 0.0000000061556973}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: -0.000000034842422, y: 0.8107716, z: -0.00000001695555}
+        inSlope: {x: -0.000000010040377, y: -0, z: 0.000000006155682}
+        outSlope: {x: -0.000000010040319, y: -0, z: 0.0000000061557115}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.00000005450478, y: 0.8107716, z: -0.0000000049006497}
+        inSlope: {x: -0.000000010040326, y: 0, z: 0.000000006155689}
+        outSlope: {x: -0.000000010040326, y: 0, z: 0.000000006155689}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/TopFlap.l/TopFlap1.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.000000094387296, y: 0.64339507, z: -0.00000033735637}
+        inSlope: {x: -0.0000000066935626, y: 0, z: -0.00000006774995}
+        outSlope: {x: -0.0000000066935626, y: 0, z: -0.00000006774995}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: -0.00000009773409, y: 0.64339507, z: -0.00000037123135}
+        inSlope: {x: -0.0000000066935852, y: -0, z: -0.00000006774997}
+        outSlope: {x: -0.0000000066936026, y: -0, z: -0.00000006774979}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.00000011084232, y: 0.64339507, z: -0.0000005039084}
+        inSlope: {x: -0.000000006693593, y: 0, z: -0.000000067750406}
+        outSlope: {x: -0.000000006693593, y: 0, z: -0.000000067750406}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/TopFlap.l/TopFlap1.l/TopFlap2.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00000010303067, y: 0.43031663, z: -0.000000074505806}
+        inSlope: {x: -0.0000000043628026, y: 0.000000014305117, z: 0}
+        outSlope: {x: -0.0000000043628026, y: 0.000000014305117, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: -0.00000010521206, y: 0.43031663, z: -0.000000074505806}
+        inSlope: {x: -0.000000004362742, y: -0, z: -0}
+        outSlope: {x: -0.0000000043628128, y: -0, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.00000011375582, y: 0.43031663, z: -0.000000074505806}
+        inSlope: {x: -0.0000000043628026, y: 0, z: 0}
+        outSlope: {x: -0.0000000043628026, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/TopFlap.l/TopFlap1.l/TopFlap2.l/TopFlap3.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.20693094, y: 1.5997783, z: -0.42010882}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.20693094, y: 1.5997783, z: -0.42010882}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.0000001520497, y: 0.67939705, z: -0.00000001849945}
+        inSlope: {x: 0.0000000112355245, y: -0.000000028610234, z: -0.0000000030479654}
+        outSlope: {x: 0.0000000112355245, y: -0.000000028610234, z: -0.0000000030479654}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: 0.00000015766743, y: 0.67939705, z: -0.000000020023435}
+        inSlope: {x: 0.000000011235387, y: -0, z: -0.0000000030479763}
+        outSlope: {x: 0.000000011235811, y: -0, z: -0.0000000030479492}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.00000017967054, y: 0.679397, z: -0.000000025992366}
+        inSlope: {x: 0.000000011235769, y: -0.0000000072985267, z: -0.0000000030479885}
+        outSlope: {x: 0.000000011235769, y: -0.0000000072985267, z: -0.0000000030479885}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/BottomFlap.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000000019222853, y: 0.33412233, z: -0.00000008391862}
+        inSlope: {x: -0.0000000011654031, y: 0, z: -0.0000000054983227}
+        outSlope: {x: -0.0000000011654031, y: 0, z: -0.0000000054983227}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: 0.000000018640147, y: 0.33412233, z: -0.00000008666778}
+        inSlope: {x: -0.0000000011654215, y: -0, z: -0.0000000054983205}
+        outSlope: {x: -0.0000000011653949, y: -0, z: -0.0000000054983653}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.000000016357909, y: 0.3341223, z: -0.00000009743527}
+        inSlope: {x: -0.0000000011653953, y: -0.0000000036492633, z: -0.0000000054983476}
+        outSlope: {x: -0.0000000011653953, y: -0.0000000036492633, z: -0.0000000054983476}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/BottomFlap.r/BottomFlap1.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000000027970797, y: 0.31861827, z: -0.000000053060482}
+        inSlope: {x: 0.0000000045121853, y: -0.00000018596651, z: -0.000000009801315}
+        outSlope: {x: 0.0000000045121853, y: -0.00000018596651, z: -0.000000009801315}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: 0.000000030226897, y: 0.31861806, z: -0.000000057961135}
+        inSlope: {x: 0.000000004512214, y: -0.00000071526665, z: -0.0000000098012904}
+        outSlope: {x: 0.000000004512196, y: -0, z: -0.000000009801322}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.000000039063256, y: 0.31861803, z: -0.00000007715534}
+        inSlope: {x: 0.0000000045121924, y: -0.0000000036492633, z: -0.000000009801316}
+        outSlope: {x: 0.0000000045121924, y: -0.0000000036492633, z: -0.000000009801316}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/BottomFlap.r/BottomFlap1.r/BottomFlap2.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.0000001520497, y: 0.67939705, z: -0.00000001849945}
+        inSlope: {x: 0.0000000112355245, y: -0.000000028610234, z: -0.0000000030479654}
+        outSlope: {x: 0.0000000112355245, y: -0.000000028610234, z: -0.0000000030479654}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: 0.00000015766743, y: 0.67939705, z: -0.000000020023435}
+        inSlope: {x: 0.000000011235387, y: -0, z: -0.0000000030479763}
+        outSlope: {x: 0.000000011235811, y: -0, z: -0.0000000030479492}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.00000017967054, y: 0.679397, z: -0.000000025992366}
+        inSlope: {x: 0.000000011235769, y: -0.0000000072985267, z: -0.0000000030479885}
+        outSlope: {x: 0.000000011235769, y: -0.0000000072985267, z: -0.0000000030479885}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000000051815395, y: 0.7978218, z: 0.000000012430911}
+        inSlope: {x: 0.000000008127908, y: 0.000000028610234, z: 0.000000006693573}
+        outSlope: {x: 0.000000008127908, y: 0.000000028610234, z: 0.000000006693573}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: 0.000000055879354, y: 0.7978219, z: 0.000000015777701}
+        inSlope: {x: 0.000000008127937, y: -0, z: 0.0000000066935852}
+        outSlope: {x: 0.0000000081279214, y: -0, z: 0.00000000669356}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.0000000717965, y: 0.79782194, z: 0.000000028885939}
+        inSlope: {x: 0.000000008127916, y: 0.0000000072985267, z: 0.0000000066935613}
+        outSlope: {x: 0.000000008127916, y: 0.0000000072985267, z: 0.0000000066935613}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlap.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00000009603101, y: 0.8014501, z: -0.00000013826897}
+        inSlope: {x: -0.000000008086781, y: -0.000000028610234, z: 0.000000005139653}
+        outSlope: {x: -0.000000008086781, y: -0.000000028610234, z: 0.000000005139653}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: -0.000000100074374, y: 0.8014501, z: -0.00000013569918}
+        inSlope: {x: -0.000000008086668, y: -0, z: 0.0000000051395195}
+        outSlope: {x: -0.0000000080868245, y: -0, z: 0.000000005139743}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.00000011591106, y: 0.8014501, z: -0.0000001256339}
+        inSlope: {x: -0.000000008086822, y: 0, z: 0.000000005139446}
+        outSlope: {x: -0.000000008086822, y: 0, z: 0.000000005139446}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlap.r/MidFlap1.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00000008177211, y: 0.9399789, z: 0.00000010177814}
+        inSlope: {x: 0.0000000034663419, y: 0, z: -0.000000023427488}
+        outSlope: {x: 0.0000000034663419, y: 0, z: -0.000000023427488}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: -0.00000008003896, y: 0.9399789, z: 0.00000009006437}
+        inSlope: {x: 0.0000000034662508, y: -0, z: -0.000000023427633}
+        outSlope: {x: 0.000000003466342, y: -0, z: -0.000000023427438}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.00000007325077, y: 0.93997884, z: 0.00000004418553}
+        inSlope: {x: 0.000000003466335, y: -0.0000000072985267, z: -0.000000023427447}
+        outSlope: {x: 0.000000003466335, y: -0.0000000072985267, z: -0.000000023427447}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlap.r/MidFlap1.r/MidFlap2.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000000051815395, y: 0.7978218, z: 0.000000012430911}
+        inSlope: {x: 0.000000008127908, y: 0.000000028610234, z: 0.000000006693573}
+        outSlope: {x: 0.000000008127908, y: 0.000000028610234, z: 0.000000006693573}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: 0.000000055879354, y: 0.7978219, z: 0.000000015777701}
+        inSlope: {x: 0.000000008127937, y: -0, z: 0.0000000066935852}
+        outSlope: {x: 0.0000000081279214, y: -0, z: 0.00000000669356}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.0000000717965, y: 0.79782194, z: 0.000000028885939}
+        inSlope: {x: 0.000000008127916, y: 0.0000000072985267, z: 0.0000000066935613}
+        outSlope: {x: 0.000000008127916, y: 0.0000000072985267, z: 0.0000000066935613}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlapA.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.000000010637996, y: 0.77870214, z: 0.000000106198165}
+        inSlope: {x: 0.0000000028686724, y: 0, z: -0.0000000085462615}
+        outSlope: {x: 0.0000000028686724, y: 0, z: -0.0000000085462615}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: -0.000000009203658, y: 0.77870214, z: 0.00000010192504}
+        inSlope: {x: 0.0000000028686824, y: -0, z: -0.000000008546254}
+        outSlope: {x: 0.0000000028686593, y: -0, z: -0.0000000085462295}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.0000000035858412, y: 0.77870214, z: 0.000000085188624}
+        inSlope: {x: 0.000000002868671, y: 0, z: -0.000000008546234}
+        outSlope: {x: 0.000000002868671, y: 0, z: -0.000000008546234}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlapA.r/MidFlapA1.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.00000009793334, y: 0.5842309, z: -0.000000009751495}
+        inSlope: {x: 0.0000000057372938, y: 0, z: 0.0000000026296159}
+        outSlope: {x: 0.0000000057372938, y: 0, z: 0.0000000026296159}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: 0.00000010080197, y: 0.5842309, z: -0.000000008436687}
+        inSlope: {x: 0.000000005737237, y: -0, z: 0.0000000026296167}
+        outSlope: {x: 0.0000000057374465, y: -0, z: 0.0000000026296205}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.00000011203761, y: 0.58423084, z: -0.000000003287021}
+        inSlope: {x: 0.0000000057372787, y: -0.0000000072985267, z: 0.000000002629615}
+        outSlope: {x: 0.0000000057372787, y: -0.0000000072985267, z: 0.000000002629615}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlapA.r/MidFlapA1.r/MidFlapA2.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00000005820021, y: 0.46148625, z: -0.0000003848628}
+        inSlope: {x: -0.0000000074107174, y: 0, z: -0.00000002480202}
+        outSlope: {x: -0.0000000074107174, y: 0, z: -0.00000002480202}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: -0.00000006190556, y: 0.46148625, z: -0.00000039726388}
+        inSlope: {x: -0.000000007410676, y: -0, z: -0.000000024802299}
+        outSlope: {x: -0.000000007410677, y: -0, z: -0.00000002480173}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.00000007641825, y: 0.46148628, z: -0.0000004458346}
+        inSlope: {x: -0.000000007410834, y: 0.0000000036492633, z: -0.000000024801802}
+        outSlope: {x: -0.000000007410834, y: 0.0000000036492633, z: -0.000000024801802}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlapA.r/MidFlapA1.r/MidFlapA2.r/MidFlapA3.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000000051815395, y: 0.7978218, z: 0.000000012430911}
+        inSlope: {x: 0.000000008127908, y: 0.000000028610234, z: 0.000000006693573}
+        outSlope: {x: 0.000000008127908, y: 0.000000028610234, z: 0.000000006693573}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: 0.000000055879354, y: 0.7978219, z: 0.000000015777701}
+        inSlope: {x: 0.000000008127937, y: -0, z: 0.0000000066935852}
+        outSlope: {x: 0.0000000081279214, y: -0, z: 0.00000000669356}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.0000000717965, y: 0.79782194, z: 0.000000028885939}
+        inSlope: {x: 0.000000008127916, y: 0.0000000072985267, z: 0.0000000066935613}
+        outSlope: {x: 0.000000008127916, y: 0.0000000072985267, z: 0.0000000066935613}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/TopFlap.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.000000100762136, y: 0.8107717, z: -0.000000035121325}
+        inSlope: {x: -9.562281e-10, y: 0.000000028610234, z: 0.0000000014343439}
+        outSlope: {x: -9.562281e-10, y: 0.000000028610234, z: 0.0000000014343439}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: -0.00000010124024, y: 0.81077176, z: -0.000000034404152}
+        inSlope: {x: -9.561777e-10, y: -0, z: 0.0000000014343519}
+        outSlope: {x: -9.563264e-10, y: -0, z: 0.000000001434319}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.00000010311285, y: 0.8107719, z: -0.000000031595242}
+        inSlope: {x: -9.561595e-10, y: 0.000000014597053, z: 0.0000000014343228}
+        outSlope: {x: -9.561595e-10, y: 0.000000014597053, z: 0.0000000014343228}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/TopFlap.r/TopFlap1.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.0000000528513, y: 0.64339536, z: 0.000000016997266}
+        inSlope: {x: 0.0000000062154504, y: 0, z: 0.000000011489627}
+        outSlope: {x: 0.0000000062154504, y: 0, z: 0.000000011489627}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: -0.000000049743583, y: 0.64339536, z: 0.000000022742075}
+        inSlope: {x: 0.0000000062154113, y: -0, z: 0.000000011489608}
+        outSlope: {x: 0.0000000062155245, y: -0, z: 0.000000011489644}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: -0.000000037571642, y: 0.64339536, z: 0.0000000452426}
+        inSlope: {x: 0.000000006215437, y: 0, z: 0.00000001148964}
+        outSlope: {x: 0.000000006215437, y: 0, z: 0.00000001148964}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/TopFlap.r/TopFlap1.r/TopFlap2.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000000033686987, y: 0.43031636, z: -0.000000068091126}
+        inSlope: {x: -0.000000009084126, y: 0.000000028610234, z: 0.00000001434336}
+        outSlope: {x: -0.000000009084126, y: 0.000000028610234, z: 0.00000001434336}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5
+        value: {x: 0.000000029144918, y: 0.43031636, z: -0.000000060919454}
+        inSlope: {x: -0.000000009084157, y: -0, z: 0.000000014343348}
+        outSlope: {x: -0.00000000908412, y: -0, z: 0.000000014343361}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.000000011355165, y: 0.4303164, z: -0.000000032830368}
+        inSlope: {x: -0.00000000908414, y: 0.0000000036492633, z: 0.00000001434336}
+        outSlope: {x: -0.00000000908414, y: 0.0000000036492633, z: 0.00000001434336}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/TopFlap.r/TopFlap1.r/TopFlap2.r/TopFlap3.r
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999998, y: 0.9999996, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999998, y: 0.9999996, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999995, y: 0.99999946, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999995, y: 0.99999946, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/BottomFlap.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999994, y: 0.9999997, z: 0.9999998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.99999994, y: 0.9999997, z: 0.9999998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/BottomFlap.l/BottomFlap1.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999999, y: 1.0000002, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999999, y: 1.0000002, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/BottomFlap.l/BottomFlap1.l/BottomFlap2.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999976, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.99999976, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999998, y: 0.9999998, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999998, y: 0.9999998, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlap.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999995, y: 0.99999964, z: 0.99999964}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999995, y: 0.99999964, z: 0.99999964}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlap.l/MidFlap1.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000001, y: 1.0000004, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 1.0000001, y: 1.0000004, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlap.l/MidFlap1.l/MidFlap2.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999997, y: 0.9999999, z: 0.9999998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999997, y: 0.9999999, z: 0.9999998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlapA.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999998, y: 1.0000001, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999998, y: 1.0000001, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlapA.l/MidFlapA1.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999964, y: 0.9999999, z: 0.9999998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.99999964, y: 0.9999999, z: 0.9999998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlapA.l/MidFlapA1.l/MidFlapA2.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999999, y: 1, z: 1.0000004}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999999, y: 1, z: 1.0000004}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/MidFlapA.l/MidFlapA1.l/MidFlapA2.l/MidFlapA3.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 0.99999905, z: 0.9999997}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 1, y: 0.99999905, z: 0.9999997}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/TopFlap.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999934, y: 0.9999993, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.99999934, y: 0.9999993, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/TopFlap.l/TopFlap1.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999976, y: 1.0000002, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.99999976, y: 1.0000002, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/TopFlap.l/TopFlap1.l/TopFlap2.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.l/Mid.l/TopFlap.l/TopFlap1.l/TopFlap2.l/TopFlap3.l
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999964, y: 0.99999976, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.99999964, y: 0.99999976, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999946, y: 0.99999976, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.99999946, y: 0.99999976, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/BottomFlap.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999964, y: 0.99999946, z: 0.9999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.99999964, y: 0.99999946, z: 0.9999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/BottomFlap.r/BottomFlap1.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 1, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/BottomFlap.r/BottomFlap1.r/BottomFlap2.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999998, y: 0.99999994, z: 1.0000004}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999998, y: 0.99999994, z: 1.0000004}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999976, y: 0.99999964, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.99999976, y: 0.99999964, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlap.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999998, y: 0.9999994, z: 0.9999995}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999998, y: 0.9999994, z: 0.9999995}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlap.r/MidFlap1.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1.0000002, z: 1.0000004}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 1, y: 1.0000002, z: 1.0000004}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlap.r/MidFlap1.r/MidFlap2.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000001, y: 0.99999964, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 1.0000001, y: 0.99999964, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlapA.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999976, y: 0.9999994, z: 0.9999997}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.99999976, y: 0.9999994, z: 0.9999997}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlapA.r/MidFlapA1.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999995, y: 0.9999999, z: 0.9999998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999995, y: 0.9999999, z: 0.9999998}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlapA.r/MidFlapA1.r/MidFlapA2.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999998, y: 1.0000002, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.9999998, y: 1.0000002, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/MidFlapA.r/MidFlapA1.r/MidFlapA2.r/MidFlapA3.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000001, y: 0.99999964, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 1.0000001, y: 0.99999964, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/TopFlap.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999934, y: 0.9999995, z: 0.99999964}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.99999934, y: 0.9999995, z: 0.99999964}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/TopFlap.r/TopFlap1.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999946, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 0.99999946, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/TopFlap.r/TopFlap1.r/TopFlap2.r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000002, y: 0.99999994, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.458333
+        value: {x: 1.0000002, y: 0.99999994, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Demon Wings Rig/Root/Base.r/Mid.r/TopFlap.r/TopFlap1.r/TopFlap2.r/TopFlap3.r
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 2.458334
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 1
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []
