@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\Controllers\MultiplayerManager.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\DiveRoll.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\AnimationParameters.cs" />
+     <Compile Include="Assets\Scripts\Helpers\PlayerInputControlChanger.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Extensions\CollectionExtensions.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\RPGCharacterAnimatorEvents.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Examples\PlayerCamera.cs" />
@@ -73,6 +74,7 @@
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Examples\PlayerInputController.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Character\AttackContext.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Examples\SimpleStateMachine.cs" />
+     <Compile Include="Assets\Scripts\Controllers\FireController.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Navigation.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Examples\PlayerMachineDebug.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
@@ -97,6 +99,7 @@
      <Compile Include="Assets\Scripts\Controllers\PlayerMovement.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Idle.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\RPGCharacterNavigationController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\InteractiveObject.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\KnockdownType.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\IgnoredCollider.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Move.cs" />

@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CharacterController))]
-[RequireComponent(typeof(PlayerInput))]
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
@@ -20,9 +19,8 @@ public class PlayerMovement : MonoBehaviour
     private float moveTimer;
     private float verticalVelocity;
 
-    private void Awake()
-    {
-        characterController = GetComponent<CharacterController>();
+    private void Start() {
+        if(characterController==null){characterController=GetComponent<CharacterController>();}
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -30,7 +28,8 @@ public class PlayerMovement : MonoBehaviour
         movementInput = context.ReadValue<Vector2>();
     }
 
-    private void Update() {
+    private void Update()
+    {
         if (movementInput.magnitude > 0)
         {
             moveTimer += Time.deltaTime;

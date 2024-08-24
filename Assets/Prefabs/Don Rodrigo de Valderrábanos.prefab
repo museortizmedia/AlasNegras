@@ -13387,6 +13387,8 @@ GameObject:
   - component: {fileID: 4577428808086241243}
   - component: {fileID: 2838596030370714780}
   - component: {fileID: 1097184000306389489}
+  - component: {fileID: -4012800451088878998}
+  - component: {fileID: 4426668068264224229}
   - component: {fileID: 3143301282670173736}
   m_Layer: 0
   m_Name: "Don Rodrigo de Valderr\xE1banos"
@@ -13410,7 +13412,7 @@ Transform:
   - {fileID: 6872455267185994787}
   - {fileID: 4125927742189954471}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &2838596030370714780
 CharacterController:
@@ -13456,6 +13458,40 @@ MonoBehaviour:
   gravity: -9.81
   animator: {fileID: 1072846974009822551}
   model: {fileID: 1092340671773719492}
+--- !u!114 &-4012800451088878998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657688432684766251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819ff4739933bad4b94fa5daba36f828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensaje: 'Rodri: FIRE 1'
+  OnFire1Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _currentNearObject: {fileID: 0}
+--- !u!114 &4426668068264224229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657688432684766251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819ff4739933bad4b94fa5daba36f828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensaje: 'Rodri: FIRE 2'
+  OnFire1Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _currentNearObject: {fileID: 0}
 --- !u!114 &3143301282670173736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13496,83 +13532,43 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: 41fa90b1-b2a2-4b69-819e-24f3745bcdb6
+    m_ActionId: c088fc95-27ed-48d4-88bc-df7f4db985d3
     m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
   - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 31abafa6-992e-4c2c-8fb1-40eaac41a938
-    m_ActionName: Player/Fire[/Mouse/leftButton]
+      m_Calls:
+      - m_Target: {fileID: -4012800451088878998}
+        m_TargetAssemblyTypeName: FireController, Assembly-CSharp
+        m_MethodName: OnFire
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8dae6291-f9ab-4f27-8c01-d949caf39f5b
+    m_ActionName: Player/Fire 1[/Mouse/leftButton]
   - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 013b5a70-f526-4daa-b1b7-263f50dbd1c5
-    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: df9b54af-4805-43ff-bd64-ba9266bea8e0
-    m_ActionName: UI/Submit[/Keyboard/enter]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 739310ab-e44d-4c33-a2dd-fd6a23c3f25b
-    m_ActionName: UI/Cancel[/Keyboard/escape]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 4dd8507c-f2f4-4721-ab4c-dfc6c663eb9e
-    m_ActionName: UI/Point[/Mouse/position]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 37c18db3-455a-4b58-b2c8-051071e89b23
-    m_ActionName: UI/Click[/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 57baf62e-a7d3-449c-8bad-5c968a0388e2
-    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 91b19a62-fc3b-482f-8de7-7cacbb70f00e
-    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 33341d80-a6b9-4265-8dbd-26451a84e988
-    m_ActionName: UI/RightClick[/Mouse/rightButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 9920e1a0-41bb-4dd2-81c9-5245f757cdef
-    m_ActionName: UI/TrackedDevicePosition
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: bb6db55a-8c93-48f7-a757-f00896c72f13
-    m_ActionName: UI/TrackedDeviceOrientation
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: e82b4f3c-e8b2-427d-8f73-11302d5972da
+      m_Calls:
+      - m_Target: {fileID: 4426668068264224229}
+        m_TargetAssemblyTypeName: FireController, Assembly-CSharp
+        m_MethodName: OnFire
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8c14165e-2a24-4d83-8b2b-fc38d80d3b9c
     m_ActionName: Player/Fire 2[/Mouse/rightButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 2f71aeb4-dafd-49d5-9bdd-132b119f3f87
-    m_ActionName: Player2/Move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: f2e09eb3-5e6e-4daa-80fd-cdb9cafda7bb
-    m_ActionName: Player2/Fire 1[/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 9e178ed9-bae2-4097-ba99-9795bad3aaec
-    m_ActionName: Player2/Fire 2[/Mouse/rightButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 99ad7b32-560b-48b3-a94d-15ab06c015f9
-    m_ActionName: Player3/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 175915a3-c157-4c9a-98f8-40680c5199de
-    m_ActionName: Player3/Fire 1[/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 53a46c50-9d97-4dd0-88ac-9e6cd11593fe
-    m_ActionName: Player3/Fire 2[/Mouse/rightButton]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player1
+  m_NeverAutoSwitchControlSchemes: 1
+  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!1 &1665002563630809909
