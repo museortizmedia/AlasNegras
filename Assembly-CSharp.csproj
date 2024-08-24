@@ -62,6 +62,7 @@
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperCharacterController.cs" />
      <Compile Include="Assets\InputSystem\PJs.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\WeaponGroupings.cs" />
+     <Compile Include="Assets\Scripts\Component\Floating.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Null.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Math3d.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\KnockbackType.cs" />
