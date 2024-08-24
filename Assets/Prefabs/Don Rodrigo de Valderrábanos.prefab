@@ -5229,6 +5229,77 @@ Transform:
   m_Father: {fileID: 5393423645505864923}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &746979986747426425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2292099962545836365}
+  - component: {fileID: 3188494101566307318}
+  - component: {fileID: 4284029668634729784}
+  m_Layer: 0
+  m_Name: FIRE 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2292099962545836365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746979986747426425}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4577428808086241243}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3188494101566307318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746979986747426425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819ff4739933bad4b94fa5daba36f828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensaje: 'Rodri: FIRE 1'
+  OnFire1Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _currentNearObject: {fileID: 0}
+--- !u!135 &4284029668634729784
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746979986747426425}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &749515127161230027
 GameObject:
   m_ObjectHideFlags: 0
@@ -13387,8 +13458,6 @@ GameObject:
   - component: {fileID: 4577428808086241243}
   - component: {fileID: 2838596030370714780}
   - component: {fileID: 1097184000306389489}
-  - component: {fileID: -4012800451088878998}
-  - component: {fileID: 4426668068264224229}
   - component: {fileID: 3143301282670173736}
   m_Layer: 0
   m_Name: "Don Rodrigo de Valderr\xE1banos"
@@ -13411,6 +13480,8 @@ Transform:
   m_Children:
   - {fileID: 6872455267185994787}
   - {fileID: 4125927742189954471}
+  - {fileID: 2292099962545836365}
+  - {fileID: 7741284735371810781}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13458,40 +13529,6 @@ MonoBehaviour:
   gravity: -9.81
   animator: {fileID: 1072846974009822551}
   model: {fileID: 1092340671773719492}
---- !u!114 &-4012800451088878998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657688432684766251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 819ff4739933bad4b94fa5daba36f828, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mensaje: 'Rodri: FIRE 1'
-  OnFire1Event:
-    m_PersistentCalls:
-      m_Calls: []
-  _currentNearObject: {fileID: 0}
---- !u!114 &4426668068264224229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657688432684766251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 819ff4739933bad4b94fa5daba36f828, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mensaje: 'Rodri: FIRE 2'
-  OnFire1Event:
-    m_PersistentCalls:
-      m_Calls: []
-  _currentNearObject: {fileID: 0}
 --- !u!114 &3143301282670173736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13536,7 +13573,7 @@ MonoBehaviour:
     m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -4012800451088878998}
+      - m_Target: {fileID: 3188494101566307318}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
         m_MethodName: OnFire
         m_Mode: 0
@@ -13552,7 +13589,7 @@ MonoBehaviour:
     m_ActionName: Player/Fire 1[/Mouse/leftButton]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4426668068264224229}
+      - m_Target: {fileID: 4879930470271567376}
         m_TargetAssemblyTypeName: FireController, Assembly-CSharp
         m_MethodName: OnFire
         m_Mode: 0
@@ -24393,6 +24430,77 @@ SkinnedMeshRenderer:
     m_Center: {x: -28.790985, y: -3.2339306, z: 8.667109}
     m_Extent: {x: 18.695908, y: 8.62073, z: 15.369301}
   m_DirtyAABB: 0
+--- !u!1 &3177702358403122817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7741284735371810781}
+  - component: {fileID: 4879930470271567376}
+  - component: {fileID: 9105898353586439463}
+  m_Layer: 0
+  m_Name: FIRE 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7741284735371810781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3177702358403122817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4577428808086241243}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4879930470271567376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3177702358403122817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819ff4739933bad4b94fa5daba36f828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensaje: 'Rodri: FIRE 2'
+  OnFire1Event:
+    m_PersistentCalls:
+      m_Calls: []
+  _currentNearObject: {fileID: 0}
+--- !u!135 &9105898353586439463
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3177702358403122817}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &3208807576600669007
 GameObject:
   m_ObjectHideFlags: 0
