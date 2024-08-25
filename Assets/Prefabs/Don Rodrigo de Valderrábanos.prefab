@@ -5281,10 +5281,22 @@ MonoBehaviour:
   OnTryFireEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1072846974009822551}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
+      - m_Target: {fileID: 1097184000306389489}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: StopMovementTemporary
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Slash
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5291642785805919774}
+        m_TargetAssemblyTypeName: AnimationRandom, Assembly-CSharp
+        m_MethodName: TriggerRandomAnimation
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8199,6 +8211,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6872455267185994787}
+  - component: {fileID: 3449870315107205610}
+  - component: {fileID: 5291642785805919774}
   - component: {fileID: 1072846974009822551}
   - component: {fileID: 4820574900295867912}
   - component: {fileID: 5213604732207543046}
@@ -8226,6 +8240,34 @@ Transform:
   m_Father: {fileID: 4577428808086241243}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3449870315107205610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092340671773719492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263b856fa2b88464996fb00b3edb82a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5291642785805919774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092340671773719492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e2e94d890901014795524928bac4d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blendTreeName: RandomAttack
+  attackTrigger: Slash
+  attackIndexParameter: SlashIndex
+  waitForAnimationToEnd: 0
 --- !u!95 &1072846974009822551
 Animator:
   serializedVersion: 5
@@ -13516,6 +13558,7 @@ GameObject:
   - component: {fileID: 3143301282670173736}
   - component: {fileID: 1097184000306389489}
   - component: {fileID: 5128462913530200564}
+  - component: {fileID: 2840849285471522714}
   m_Layer: 0
   m_Name: "Don Rodrigo de Valderr\xE1banos"
   m_TagString: Untagged
@@ -13540,7 +13583,7 @@ Transform:
   - {fileID: 2292099962545836365}
   - {fileID: 7741284735371810781}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &2838596030370714780
 CharacterController:
@@ -13642,6 +13685,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 8c14165e-2a24-4d83-8b2b-fc38d80d3b9c
     m_ActionName: Player/Fire 2[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 53f07b6f-4f85-4675-a1c0-7bd021138447
+    m_ActionName: Player/Dodge[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
@@ -13680,6 +13727,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _assetDeEstadisticas: {fileID: 11400000, guid: 65f2a144bdea8874499804dc798c6a17,
     type: 2}
+--- !u!114 &2840849285471522714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657688432684766251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f637fa1698de85f489faab3e37891f77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dodgeDistanceMultiplier: 4
+  dodgeDuration: 0.5
+  OnInitDodge:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3449870315107205610}
+        m_TargetAssemblyTypeName: AnimatorBoolSetter, Assembly-CSharp
+        m_MethodName: SetTrue
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Sprint
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnExitDodge:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3449870315107205610}
+        m_TargetAssemblyTypeName: AnimatorBoolSetter, Assembly-CSharp
+        m_MethodName: SetFalse
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Sprint
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1665002563630809909
 GameObject:
   m_ObjectHideFlags: 0

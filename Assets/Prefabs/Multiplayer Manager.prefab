@@ -116,7 +116,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 2280756634063204907}
   m_Follow: {fileID: 2280756634063204907}
   m_Lens:
-    FieldOfView: 60.000004
+    FieldOfView: 50
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 5097543346814929317}
   - component: {fileID: 7505778115275858717}
   - component: {fileID: 545588713463654934}
+  - component: {fileID: 1259535261358576477}
   m_Layer: 0
   m_Name: CinemachineBrain
   m_TagString: MainCamera
@@ -385,7 +386,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 60.000004
+  field of view: 50
   orthographic: 0
   orthographic size: 10
   m_Depth: 0
@@ -447,3 +448,11 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!81 &1259535261358576477
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6768824237806817960}
+  m_Enabled: 1

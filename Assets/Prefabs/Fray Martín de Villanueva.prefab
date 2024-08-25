@@ -27347,6 +27347,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4383276791699980393}
+  - component: {fileID: 5740969565315881166}
+  - component: {fileID: 5091228441381349902}
   - component: {fileID: 4874893403102861053}
   - component: {fileID: 4126886229063629921}
   - component: {fileID: 9051462683503218685}
@@ -27374,6 +27376,34 @@ Transform:
   m_Father: {fileID: 8607116256280471687}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5740969565315881166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3563213512330258173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263b856fa2b88464996fb00b3edb82a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5091228441381349902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3563213512330258173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e2e94d890901014795524928bac4d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blendTreeName: RandomAttack
+  attackTrigger: Slash
+  attackIndexParameter: SlashIndex
+  waitForAnimationToEnd: 0
 --- !u!95 &4874893403102861053
 Animator:
   serializedVersion: 5
@@ -39726,6 +39756,7 @@ GameObject:
   - component: {fileID: 7582132305841659869}
   - component: {fileID: 443690068645788893}
   - component: {fileID: 2645533210747740775}
+  - component: {fileID: 8887144818376890102}
   m_Layer: 0
   m_Name: "Fray Mart\xEDn de Villanueva"
   m_TagString: Untagged
@@ -39750,7 +39781,7 @@ Transform:
   - {fileID: 6591893621028759116}
   - {fileID: 5863902678416986832}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &533652569489110845
 CharacterController:
@@ -39890,6 +39921,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _assetDeEstadisticas: {fileID: 11400000, guid: 07101cf4c9c76b34bb47a79d23d46fc7,
     type: 2}
+--- !u!114 &8887144818376890102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5132563806458162256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f637fa1698de85f489faab3e37891f77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dodgeDistanceMultiplier: 4
+  dodgeDuration: 0.5
+  OnInitDodge:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5740969565315881166}
+        m_TargetAssemblyTypeName: AnimatorBoolSetter, Assembly-CSharp
+        m_MethodName: SetTrue
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Sprint
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnExitDodge:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5740969565315881166}
+        m_TargetAssemblyTypeName: AnimatorBoolSetter, Assembly-CSharp
+        m_MethodName: SetFalse
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Sprint
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5141525915462875114
 GameObject:
   m_ObjectHideFlags: 0

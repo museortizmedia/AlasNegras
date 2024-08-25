@@ -40,6 +40,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Component\Audio\AudioScaleModifier.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\RPGCharacterInputController.cs" />
      <Compile Include="Assets\Scripts\Controllers\Stats\Data\StateGroupData.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Knockdown.cs" />
@@ -72,6 +73,7 @@
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\KnockbackType.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\TwoHandedSwordAttack.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Extensions\WeaponExtensions.cs" />
+     <Compile Include="Assets\Scripts\Component\Animator\AnimationRandom.cs" />
      <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\SpeedStat.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\RPGCharacterMovementController.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\HitContext.cs" />
@@ -90,8 +92,10 @@
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Examples\Gravity.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\DiveRollType.cs" />
      <Compile Include="Assets\Packages\FST\DemonWings\DemoScripts\DemoAnimationSelector.cs" />
+     <Compile Include="Assets\Scripts\Component\Animator\AnimationBoolSetter.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\BSPTree.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperCollision.cs" />
+     <Compile Include="Assets\Scripts\Controllers\DodgeMovement.cs" />
      <Compile Include="Assets\Scripts\Controllers\Stats\StatModifier.cs" />
      <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\DefenseStat.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperMath.cs" />
@@ -113,6 +117,7 @@
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Move.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Fall.cs" />
      <Compile Include="Assets\Scripts\Controllers\Weapons\WeaponSpawnerController.cs" />
+     <Compile Include="Assets\Scripts\Component\Audio\MicrophoneAudioCapture.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Demo Elements\Code\CameraController.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\IKHands.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\EmptyContext.cs" />

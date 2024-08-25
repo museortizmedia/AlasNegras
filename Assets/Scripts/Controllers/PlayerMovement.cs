@@ -92,4 +92,27 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
+    public void StopMovementTemporary()
+    {
+        // Detener todo movimiento, pero sin desactivar CanMove
+        movementInput = Vector2.zero;
+        moveTimer = 0;
+        verticalVelocity = 0f;
+
+        // Detener la animación
+        animator.SetFloat("Speed", 0f); // 0 para idle
+    }
+
+    // Método para detener completamente el movimiento (hasta que se reactive)
+    public void StopMovementCompletely()
+    {
+        StopMovementTemporary(); // Detener movimiento actual
+        CanMove = false; // Desactivar movimiento completamente
+    }
+
+    // Método para reactivar el movimiento
+    public void ResumeMovement()
+    {
+        CanMove = true;
+    }
 }
