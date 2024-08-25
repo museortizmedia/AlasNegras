@@ -5,6 +5,7 @@ using UnityEngine;
 public class FantasyArmorController : MonoBehaviour
 {
     public ArmorMeshData armorData;
+    public bool hasClothes;
     [SerializeField] private SkinnedMeshRenderer[] allMeshRenderers;
     [SerializeField] private SkinnedMeshRenderer[] activeMeshRenderers;
 
@@ -15,6 +16,11 @@ public class FantasyArmorController : MonoBehaviour
         #if DEBUG_ARMOR
         Debug.Log($"Found {allMeshRenderers.Length} SkinnedMeshRenderers in the character.");
         #endif
+    }
+
+    public void EquipEspecificArmor(ArmorMeshData specificArmor){
+        armorData = specificArmor;
+        EquipArmor();
     }
 
     [ContextMenu("Equipar")]
@@ -33,7 +39,7 @@ public class FantasyArmorController : MonoBehaviour
             #if DEBUG_ARMOR
             Debug.Log($"Disabling SkinnedMeshRenderer on: {renderer.gameObject.name}");
             #endif
-            renderer.gameObject.SetActive(false);
+            renderer.gameObject.SetActive(hasClothes);
         }
 
         // Activa los GameObjects que contienen los Meshes de la armadura

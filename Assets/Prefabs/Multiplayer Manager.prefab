@@ -86,7 +86,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2352105112181379741}
-  m_LocalRotation: {x: 0.32282853, y: -0.000000023030625, z: 0.000000007855547, w: 0.9464575}
+  m_LocalRotation: {x: 0.32282853, y: 0.000000023030614, z: -0.000000007855544, w: 0.9464575}
   m_LocalPosition: {x: 0, y: 7.72, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -263,7 +263,7 @@ Transform:
   - {fileID: 2280756634063204907}
   - {fileID: 4724227021067893930}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5473902872160540602
 MonoBehaviour:
@@ -280,7 +280,7 @@ MonoBehaviour:
   playerPrefabs:
   - {fileID: 1657688432684766251, guid: 9e4a0799d0a3caf4fa55495ef567fa83, type: 3}
   - {fileID: 5132563806458162256, guid: 6ddedc0bf29ecbe4b828fcc86ea53ff7, type: 3}
-  - {fileID: 4737882157697885267, guid: f7be936251c2588439437c6a8a6f4e1f, type: 3}
+  - {fileID: 8880823912797286170, guid: f7be936251c2588439437c6a8a6f4e1f, type: 3}
   spawnPoint: {fileID: 4724227021067893930}
   virtualCamera: {fileID: 9043922668996155449}
   cameraTarget: {fileID: 2280756634063204907}
@@ -310,7 +310,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6768824237806817960}
-  m_LocalRotation: {x: 0.32282853, y: -0.000000023030625, z: 0.000000007855547, w: 0.9464575}
+  m_LocalRotation: {x: 0.32282853, y: 0.000000023030614, z: -0.000000007855544, w: 0.9464575}
   m_LocalPosition: {x: 0, y: 7.72, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

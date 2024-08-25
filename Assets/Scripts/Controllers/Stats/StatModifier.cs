@@ -17,6 +17,23 @@ public class StatModifier : MonoBehaviour
     public GameObject prefabArticle;
     public ArmorMeshData armorMeshData;
 
+
+    private void Start()
+    {
+        if( (articlePose == ArticlePose.ManoDerecha || articlePose == ArticlePose.ManoIzquierda) && prefabArticle==null)
+        {
+            Debug.LogWarning($"Se estableció un Artefacto Sagrado que va en las manos ¡Pero no hay modelos! Se desactivará el Script", transform);
+            enabled = false;
+            return;
+        }
+        if( articlePose == ArticlePose.Armadura && armorMeshData==null)
+        {
+            Debug.LogWarning($"Se estableció una Armadura Sagrada ¡Pero no hay datos de armadura! Se desactivará el Script", transform);
+            enabled = false;
+            return;
+        }
+    }
+
     public void ApplyArticle(GameObject jugador)
     {
         //Debug.Log($"aplicando objeto para {jugador.name}");
@@ -34,7 +51,28 @@ public class StatModifier : MonoBehaviour
             }
         }
 
+        WeaponSpawnerController weaponSpawnerController = jugador.GetComponentInChildren<WeaponSpawnerController>();
         // Buscar el punto del jugador del articlePose e instanciar prefabArticle ahí
+        if(weaponSpawnerController!=null)
+        {
+            switch (articlePose)
+            {
+                case ArticlePose.ManoDerecha:
+                //Debug.Log($"Se añadirá arma a la derecha del jugador", transform);
+                weaponSpawnerController.TakeWeaponRigth(prefabArticle);
+                break;
+                case ArticlePose.ManoIzquierda:
+                //Debug.Log($"Se añadirá arma a la izquierda del jugador", transform);
+                weaponSpawnerController.TakeWeaponLeft(prefabArticle);
+                break;
+                case ArticlePose.Armadura:
+                //Debug.Log($"Se añadirá ropa al jugador", transform);
+                weaponSpawnerController.TakeArmor(armorMeshData);
+                break;
+                default:
+                break;
+            }
+        }
 
     }
 }

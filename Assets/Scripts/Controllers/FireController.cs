@@ -10,7 +10,8 @@ public class FireController : MonoBehaviour
     public UnityEvent OnSuccesFireEvent, OnTryFireEvent;
 
     [Header("Statics references")]
-    [SerializeField] private List<IInteractiveObject> _currentNearObjects = new();
+    [SerializeField] private List<GameObject> _currentNearObjectsReadOnly = new();
+    private List<IInteractiveObject> _currentNearObjects = new();
 
     private void Start() {
         if(Reporter==null){Reporter = transform.parent.gameObject; }
@@ -39,6 +40,7 @@ public class FireController : MonoBehaviour
                 //Debug.Log(other.gameObject.name);
                 interactiveObject.OnEnterPlayer();
                 _currentNearObjects.Add(interactiveObject);
+                _currentNearObjectsReadOnly.Add(other.gameObject);
             }
         }
     }
@@ -52,6 +54,7 @@ public class FireController : MonoBehaviour
             {
                 interactiveObject.OnExitPlayer();
                 _currentNearObjects.Remove(interactiveObject);
+                _currentNearObjectsReadOnly.Remove(other.gameObject);
             }
         }
     }

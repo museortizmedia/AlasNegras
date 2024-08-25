@@ -112,6 +112,7 @@
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\IgnoredCollider.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Move.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Fall.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Weapons\WeaponSpawnerController.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Demo Elements\Code\CameraController.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\IKHands.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\EmptyContext.cs" />
