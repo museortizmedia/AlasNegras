@@ -14,18 +14,19 @@ public class InteractiveObject : MonoBehaviour, IInteractiveObject
 
     public void Interactuar(GameObject from)
     {
-        Debug.Log($"{from.name} interactuó conmigo!", transform);
+        //Debug.Log($"{from.name} interactuó conmigo!", transform);
+        OnInteractive?.Invoke(from);
     }
 
     public void OnEnterPlayer()
     {
-        Debug.Log($"Aqui estoy", transform);
+        //Debug.Log($"Aqui estoy", transform);
         OnPlayerArrive?.Invoke();
     }
 
     public void OnExitPlayer()
     {
-        Debug.Log($"Me voy", transform);
+        //Debug.Log($"Me voy", transform);
         OnPlayerLeave?.Invoke();
     }
 }

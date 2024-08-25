@@ -34976,6 +34976,7 @@ GameObject:
   - component: {fileID: 6207419314422686949}
   - component: {fileID: 207816494737578260}
   - component: {fileID: 3434377850847479956}
+  - component: {fileID: 3255691926590606864}
   m_Layer: 0
   m_Name: Lope de la Cruz
   m_TagString: Untagged
@@ -35056,11 +35057,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 819ff4739933bad4b94fa5daba36f828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mensaje: 'Lope: FIRE 1'
-  OnFire1Event:
+  Reporter: {fileID: 0}
+  OnSuccesFireEvent:
     m_PersistentCalls:
       m_Calls: []
-  _currentNearObject: {fileID: 0}
+  OnTryFireEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &207816494737578260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35073,11 +35076,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 819ff4739933bad4b94fa5daba36f828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mensaje: 'Lope: FIRE 2'
-  OnFire1Event:
+  Reporter: {fileID: 0}
+  OnSuccesFireEvent:
     m_PersistentCalls:
       m_Calls: []
-  _currentNearObject: {fileID: 0}
+  OnTryFireEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &3434377850847479956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35157,6 +35162,20 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &3255691926590606864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4737882157697885267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6117c2e14bc39f94a9fcc79c821a2809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _assetDeEstadisticas: {fileID: 11400000, guid: 65f2a144bdea8874499804dc798c6a17,
+    type: 2}
 --- !u!1 &4760606536243940498
 GameObject:
   m_ObjectHideFlags: 0
@@ -47312,6 +47331,7 @@ GameObject:
   - component: {fileID: 8589698869061973659}
   - component: {fileID: 62687665652746960}
   - component: {fileID: 4088961086182579059}
+  - component: {fileID: 7145391093153383692}
   m_Layer: 0
   m_Name: PlayerMark
   m_TagString: Untagged
@@ -47384,6 +47404,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7145391093153383692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6381049452273492310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3009a81a9a46104faa9579f5adf134d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: {x: 0, y: 0, z: 30}
 --- !u!1 &6385882121914153300
 GameObject:
   m_ObjectHideFlags: 0

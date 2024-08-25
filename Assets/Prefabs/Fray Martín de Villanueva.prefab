@@ -39488,6 +39488,7 @@ GameObject:
   - component: {fileID: -1873171145922163849}
   - component: {fileID: 2814006791719045212}
   - component: {fileID: 443690068645788893}
+  - component: {fileID: 2645533210747740775}
   m_Layer: 0
   m_Name: "Fray Mart\xEDn de Villanueva"
   m_TagString: Untagged
@@ -39568,11 +39569,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 819ff4739933bad4b94fa5daba36f828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mensaje: "Mart\xEDn: FIRE 1"
-  OnFire1Event:
+  Reporter: {fileID: 0}
+  OnSuccesFireEvent:
     m_PersistentCalls:
       m_Calls: []
-  _currentNearObject: {fileID: 0}
+  OnTryFireEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2814006791719045212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39585,11 +39588,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 819ff4739933bad4b94fa5daba36f828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mensaje: "Mart\xEDn: FIRE 2"
-  OnFire1Event:
+  Reporter: {fileID: 0}
+  OnSuccesFireEvent:
     m_PersistentCalls:
       m_Calls: []
-  _currentNearObject: {fileID: 0}
+  OnTryFireEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &443690068645788893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39669,6 +39674,20 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &2645533210747740775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5132563806458162256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6117c2e14bc39f94a9fcc79c821a2809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _assetDeEstadisticas: {fileID: 11400000, guid: 65f2a144bdea8874499804dc798c6a17,
+    type: 2}
 --- !u!1 &5141525915462875114
 GameObject:
   m_ObjectHideFlags: 0
@@ -45648,6 +45667,7 @@ GameObject:
   - component: {fileID: 45271862688140670}
   - component: {fileID: 8571962152714856881}
   - component: {fileID: 1516550216213639406}
+  - component: {fileID: 6777137688845877452}
   m_Layer: 0
   m_Name: PlayerMark
   m_TagString: Untagged
@@ -45720,6 +45740,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6777137688845877452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5990326244109937909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3009a81a9a46104faa9579f5adf134d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: {x: 0, y: 0, z: 30}
 --- !u!1 &6015135437990340821
 GameObject:
   m_ObjectHideFlags: 0

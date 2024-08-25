@@ -5,22 +5,27 @@ using UnityEngine.InputSystem;
 
 public class FireController : MonoBehaviour
 {
-    public string mensaje = "FIRE";
-    public UnityEvent OnFire1Event;
+    [Tooltip("Objeto que reportará ante la interacción")]
+    public GameObject Reporter; 
+    public UnityEvent OnSuccesFireEvent, OnTryFireEvent;
 
     [Header("Statics references")]
     [SerializeField] private List<IInteractiveObject> _currentNearObjects = new();
+
+    private void Start() {
+        if(Reporter==null){Reporter = transform.parent.gameObject; }
+    }
 
     public void OnFire(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
-            Debug.Log(mensaje);
             foreach (var interactiveObject in _currentNearObjects)
             {
-                interactiveObject.Interactuar(gameObject);
+                interactiveObject.Interactuar(Reporter);
+                OnSuccesFireEvent?.Invoke();
             }
-            OnFire1Event?.Invoke();
+            OnTryFireEvent?.Invoke();
         }
     }
 
@@ -31,7 +36,7 @@ public class FireController : MonoBehaviour
             // Asegurarse de que no se añadan duplicados
             if (!_currentNearObjects.Contains(interactiveObject))
             {
-                Debug.Log(other.gameObject.name);
+                //Debug.Log(other.gameObject.name);
                 interactiveObject.OnEnterPlayer();
                 _currentNearObjects.Add(interactiveObject);
             }

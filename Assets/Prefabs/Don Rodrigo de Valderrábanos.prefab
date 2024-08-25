@@ -1517,7 +1517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &23685405274057073
 Transform:
   m_ObjectHideFlags: 0
@@ -1607,7 +1607,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4244556580917445434
 Transform:
   m_ObjectHideFlags: 0
@@ -5274,11 +5274,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 819ff4739933bad4b94fa5daba36f828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mensaje: 'Rodri: FIRE 1'
-  OnFire1Event:
+  Reporter: {fileID: 0}
+  OnSuccesFireEvent:
     m_PersistentCalls:
       m_Calls: []
-  _currentNearObject: {fileID: 0}
+  OnTryFireEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!135 &4284029668634729784
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8179,6 +8181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6872455267185994787}
   - component: {fileID: 1072846974009822551}
+  - component: {fileID: 4820574900295867912}
   m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
@@ -8224,6 +8227,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4820574900295867912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092340671773719492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d9599f950649043bc08d159e1067f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  armorMeshData: {fileID: 0}
+  allArmorMeshes: {fileID: 0}
 --- !u!1 &1097252065510745469
 GameObject:
   m_ObjectHideFlags: 0
@@ -13459,6 +13476,7 @@ GameObject:
   - component: {fileID: 2838596030370714780}
   - component: {fileID: 1097184000306389489}
   - component: {fileID: 3143301282670173736}
+  - component: {fileID: 5128462913530200564}
   m_Layer: 0
   m_Name: "Don Rodrigo de Valderr\xE1banos"
   m_TagString: Untagged
@@ -13473,7 +13491,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657688432684766251}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13483,7 +13501,7 @@ Transform:
   - {fileID: 2292099962545836365}
   - {fileID: 7741284735371810781}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &2838596030370714780
 CharacterController:
@@ -13608,6 +13626,20 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &5128462913530200564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657688432684766251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6117c2e14bc39f94a9fcc79c821a2809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _assetDeEstadisticas: {fileID: 11400000, guid: 65f2a144bdea8874499804dc798c6a17,
+    type: 2}
 --- !u!1 &1665002563630809909
 GameObject:
   m_ObjectHideFlags: 0
@@ -24132,7 +24164,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1566065074354893224
 Transform:
   m_ObjectHideFlags: 0
@@ -24475,11 +24507,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 819ff4739933bad4b94fa5daba36f828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mensaje: 'Rodri: FIRE 2'
-  OnFire1Event:
+  Reporter: {fileID: 0}
+  OnSuccesFireEvent:
     m_PersistentCalls:
       m_Calls: []
-  _currentNearObject: {fileID: 0}
+  OnTryFireEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!135 &9105898353586439463
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -33797,6 +33831,7 @@ GameObject:
   - component: {fileID: 4125927742189954471}
   - component: {fileID: 8041189659431235179}
   - component: {fileID: 4542464599083180445}
+  - component: {fileID: 8679925874752753998}
   m_Layer: 0
   m_Name: PlayerMark
   m_TagString: Untagged
@@ -33811,14 +33846,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4464078766112980375}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0.6744354, y: 0.21245454, z: -0.21245454, w: 0.6744354}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4577428808086241243}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 34.97, z: 0}
 --- !u!33 &8041189659431235179
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -33869,6 +33904,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8679925874752753998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4464078766112980375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3009a81a9a46104faa9579f5adf134d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: {x: 0, y: 0, z: 30}
 --- !u!1 &4468786420868398247
 GameObject:
   m_ObjectHideFlags: 0
@@ -35926,7 +35974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4248461829700726126
 Transform:
   m_ObjectHideFlags: 0

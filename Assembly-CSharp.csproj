@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\RPGCharacterInputController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Stats\Data\StateGroupData.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Knockdown.cs" />
      <Compile Include="Assets\Scripts\Controllers\MultiplayerManager.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\DiveRoll.cs" />
@@ -60,14 +61,18 @@
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Demo Elements\Code\HighJumpTrampoline.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Examples\PlayerMachine.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperCharacterController.cs" />
+     <Compile Include="Assets\Scripts\Component\RotateObject.cs" />
      <Compile Include="Assets\InputSystem\PJs.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\WeaponGroupings.cs" />
      <Compile Include="Assets\Scripts\Component\Floating.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Null.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Math3d.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Armors\FantasyArmorController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\BaseStat.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\KnockbackType.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\TwoHandedSwordAttack.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Extensions\WeaponExtensions.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\SpeedStat.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\RPGCharacterMovementController.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\HitContext.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Jump.cs" />
@@ -87,6 +92,8 @@
      <Compile Include="Assets\Packages\FST\DemonWings\DemoScripts\DemoAnimationSelector.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\BSPTree.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperCollision.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Stats\StatModifier.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\DefenseStat.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperMath.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\SimpleActionHandler.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Knockback.cs" />
@@ -110,18 +117,24 @@
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\EmptyContext.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Weapon.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\AnimationVariations.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Armors\ArmorData.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\AnimationData.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Demo Elements\Code\NPC.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\UnarmedAttack.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperCollider.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\ActionHandler.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\DamageStat.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperStateMachine.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\StaminaStat.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\DebugDraw.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\GetHit.cs" />
+     <Compile Include="Assets\Scripts\Controllers\InteractiveEnemie.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\HealthStat.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperGround.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperCollisionType.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\BaseActionHandler.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Extensions\AnimatorExtensions.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Stats\StatController.cs" />
      <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\CoroutineQueue.cs" />
      <None Include="Assets\Packages\PolygonFantasyHeroCharacters\README.txt" />
      <None Include="Assets\Packages\PolygonFantasyHeroCharacters\Shaders\POLYGON_CustomCharacters.shader" />
