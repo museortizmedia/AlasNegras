@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92d8e94a22a42645989dc4d7bd0c700, type: 3}
+  m_Name: TunicaBendita
+  m_EditorClassIdentifier: 
+  ArmosAssets:
+  - {fileID: 4300882, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4300842, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4300762, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4300748, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4300712, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4301390, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4301388, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4301386, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4301384, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4300494, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4301376, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4300432, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4301026, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4301324, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4301308, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4301096, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4301176, guid: 038320a534bd8b444b43734860d1a211, type: 3}

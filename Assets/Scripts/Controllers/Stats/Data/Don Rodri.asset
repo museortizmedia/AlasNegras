@@ -29,3 +29,7 @@ MonoBehaviour:
     initialValue: 5
     maxValue: 0
     regenRate: 0
+  - statType: 4
+    initialValue: 10
+    maxValue: 0
+    regenRate: 0

@@ -1,83 +1,102 @@
+//#define DEBUG_ARMOR
+
 using UnityEngine;
-using System.Collections.Generic;
 
 public class FantasyArmorController : MonoBehaviour
 {
-    public ArmorMeshData armorMeshData; // Referencia al ScriptableObject con la lista de Mesh
-    public GameObject allArmorMeshes;
+    public ArmorMeshData armorData;
+    [SerializeField] private SkinnedMeshRenderer[] allMeshRenderers;
+    [SerializeField] private SkinnedMeshRenderer[] activeMeshRenderers;
 
-    private List<GameObject> originalActiveMeshes = new List<GameObject>(); // Lista para almacenar los GameObject activos originales
-    private ArmorMeshData currentArmorData; // Para almacenar el ArmorMeshData actual
-
-    // Método para activar una armadura usando el ArmorMeshData especificado
-    public void ActivateArmor(ArmorMeshData newArmorMeshData)
+    private void Start()
     {
-        if (newArmorMeshData != null)
-        {
-            // Desactivar la armadura actual y restaurar la ropa original si es necesario
-            DeactivateArmor();
+        allMeshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>(true);
+        
+        #if DEBUG_ARMOR
+        Debug.Log($"Found {allMeshRenderers.Length} SkinnedMeshRenderers in the character.");
+        #endif
+    }
 
-            // Guardar la ropa original antes de activar la nueva armadura
-            originalActiveMeshes.Clear();
-            MeshRenderer[] renderers = allArmorMeshes.GetComponentsInChildren<MeshRenderer>();
-            foreach (MeshRenderer renderer in renderers)
+    [ContextMenu("Equipar")]
+    public void EquipArmor()
+    {
+        // Almacena los SkinnedMeshRenderers que estaban activos antes de equipar la armadura
+        activeMeshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>();
+        
+        #if DEBUG_ARMOR
+        Debug.Log($"Found {activeMeshRenderers.Length} active SkinnedMeshRenderers before equipping armor.");
+        #endif
+
+        // Oculta todos los GameObjects de los SkinnedMeshRenderers activos
+        foreach (var renderer in activeMeshRenderers)
+        {
+            #if DEBUG_ARMOR
+            Debug.Log($"Disabling SkinnedMeshRenderer on: {renderer.gameObject.name}");
+            #endif
+            renderer.gameObject.SetActive(false);
+        }
+
+        // Activa los GameObjects que contienen los Meshes de la armadura
+        foreach (var mesh in armorData.ArmosAssets)
+        {
+            bool meshFound = false;
+
+            foreach (var renderer in allMeshRenderers)
             {
-                MeshFilter meshFilter = renderer.GetComponent<MeshFilter>();
-                if (meshFilter != null && System.Array.Exists(newArmorMeshData.ArmosAssets, mesh => meshFilter.sharedMesh == mesh))
+                var meshFilter = renderer.sharedMesh;
+                if (meshFilter != null)
                 {
-                    if (renderer.gameObject.activeSelf)
+                    // Compara los Meshes para activar el correspondiente
+                    if (meshFilter == mesh)
                     {
-                        originalActiveMeshes.Add(renderer.gameObject); // Guardar el GameObject activo
+                        #if DEBUG_ARMOR
+                        Debug.Log($"Enabling GameObject for armor on: {renderer.gameObject.name}");
+                        #endif
+                        renderer.gameObject.SetActive(true);  // Activar el GameObject que contiene el SkinnedMeshRenderer
+                        meshFound = true;
                     }
                 }
             }
 
-            // Desactivar la ropa original
-            foreach (GameObject activeMesh in originalActiveMeshes)
+            if (!meshFound)
             {
-                activeMesh.SetActive(false);
+                #if DEBUG_ARMOR
+                Debug.LogWarning($"Mesh {mesh.name} from ArmorData not found in character's SkinnedMeshRenderers.");
+                #endif
             }
-
-            // Activar los nuevos MeshRenderers para la nueva armadura
-            MeshRenderer[] newRenderers = allArmorMeshes.GetComponentsInChildren<MeshRenderer>();
-            foreach (MeshRenderer renderer in newRenderers)
-            {
-                MeshFilter meshFilter = renderer.GetComponent<MeshFilter>();
-                if (meshFilter != null && System.Array.Exists(newArmorMeshData.ArmosAssets, mesh => meshFilter.sharedMesh == mesh))
-                {
-                    renderer.gameObject.SetActive(true);
-                }
-            }
-
-            // Actualizar el ArmorMeshData actual
-            currentArmorData = newArmorMeshData;
         }
     }
 
-    // Método para desactivar la armadura actual
-    public void DeactivateArmor()
+    [ContextMenu("Quitar")]
+    public void UnequipArmor()
     {
-        if (currentArmorData != null)
+        // Desactiva los GameObjects que contienen los SkinnedMeshRenderers de la armadura
+        foreach (var mesh in armorData.ArmosAssets)
         {
-            // Desactivar los MeshRenderers actuales de la armadura
-            MeshRenderer[] renderers = allArmorMeshes.GetComponentsInChildren<MeshRenderer>();
-            foreach (MeshRenderer renderer in renderers)
+            foreach (var renderer in allMeshRenderers)
             {
-                MeshFilter meshFilter = renderer.GetComponent<MeshFilter>();
-                if (meshFilter != null && System.Array.Exists(currentArmorData.ArmosAssets, mesh => meshFilter.sharedMesh == mesh))
+                var meshFilter = renderer.sharedMesh;
+                if (meshFilter != null)
                 {
-                    renderer.gameObject.SetActive(false);
+                    // Compara los Meshes para desactivar el correspondiente
+                    if (meshFilter == mesh)
+                    {
+                        #if DEBUG_ARMOR
+                        Debug.Log($"Disabling GameObject for armor on: {renderer.gameObject.name}");
+                        #endif
+                        renderer.gameObject.SetActive(false);  // Desactivar el GameObject que contiene el SkinnedMeshRenderer
+                    }
                 }
             }
+        }
 
-            // Restaurar los GameObject activos originales
-            foreach (GameObject originalActiveMesh in originalActiveMeshes)
-            {
-                originalActiveMesh.SetActive(true);
-            }
-
-            // Limpiar la lista de ropa original
-            originalActiveMeshes.Clear();
+        // Reactiva los GameObjects que contenían los SkinnedMeshRenderers activos antes de equipar la armadura
+        foreach (var renderer in activeMeshRenderers)
+        {
+            #if DEBUG_ARMOR
+            Debug.Log($"Re-enabling original GameObject on: {renderer.gameObject.name}");
+            #endif
+            renderer.gameObject.SetActive(true);  // Reactivar el GameObject que contiene el SkinnedMeshRenderer
         }
     }
 }

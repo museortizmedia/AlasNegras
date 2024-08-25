@@ -14815,7 +14815,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6040880594452948018
 Transform:
   m_ObjectHideFlags: 0
@@ -34999,7 +34999,7 @@ Transform:
   - {fileID: 6497791430595032445}
   - {fileID: 8589698869061973659}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &7441662586173020640
 CharacterController:
@@ -40768,7 +40768,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4005685931237792489
 Transform:
   m_ObjectHideFlags: 0
@@ -54586,6 +54586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6497791430595032445}
   - component: {fileID: 6106033556090322840}
+  - component: {fileID: 4884586355301864489}
   m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
@@ -54631,6 +54632,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4884586355301864489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7293508916166242420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d9599f950649043bc08d159e1067f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  armorData: {fileID: 11400000, guid: 448194d4e6576e9459e1bf6fc796009b, type: 2}
+  allMeshRenderers: []
+  activeMeshRenderers: []
 --- !u!1 &7302620945965134536
 GameObject:
   m_ObjectHideFlags: 0

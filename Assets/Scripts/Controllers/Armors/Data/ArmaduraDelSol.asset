@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: ArmaduraDelSol
   m_EditorClassIdentifier: 
   ArmosAssets:
+  - {fileID: 4300868, guid: 038320a534bd8b444b43734860d1a211, type: 3}
   - {fileID: 4300828, guid: 038320a534bd8b444b43734860d1a211, type: 3}
-  - {fileID: 4300828, guid: 038320a534bd8b444b43734860d1a211, type: 3}
-  - {fileID: 4300784, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4300782, guid: 038320a534bd8b444b43734860d1a211, type: 3}
   - {fileID: 4300654, guid: 038320a534bd8b444b43734860d1a211, type: 3}
   - {fileID: 4300618, guid: 038320a534bd8b444b43734860d1a211, type: 3}
   - {fileID: 4300584, guid: 038320a534bd8b444b43734860d1a211, type: 3}
@@ -30,5 +30,6 @@ MonoBehaviour:
   - {fileID: 4301188, guid: 038320a534bd8b444b43734860d1a211, type: 3}
   - {fileID: 4301164, guid: 038320a534bd8b444b43734860d1a211, type: 3}
   - {fileID: 4302086, guid: 038320a534bd8b444b43734860d1a211, type: 3}
-  - {fileID: 4301140, guid: 038320a534bd8b444b43734860d1a211, type: 3}
   - {fileID: 4301026, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4300702, guid: 038320a534bd8b444b43734860d1a211, type: 3}
+  - {fileID: 4300738, guid: 038320a534bd8b444b43734860d1a211, type: 3}

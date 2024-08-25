@@ -8239,8 +8239,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d9599f950649043bc08d159e1067f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  armorMeshData: {fileID: 0}
-  allArmorMeshes: {fileID: 0}
+  armorData: {fileID: 11400000, guid: 25201e73a61880644a8d6232c9f5532a, type: 2}
+  model: {fileID: 4934055921638285051}
 --- !u!1 &1097252065510745469
 GameObject:
   m_ObjectHideFlags: 0

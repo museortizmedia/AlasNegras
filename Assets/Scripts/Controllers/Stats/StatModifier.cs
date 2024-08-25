@@ -9,12 +9,13 @@ public struct StatModification
     public float PositivePoints;
     public float NegativePoints;
 }
-public enum ArticlePose { ManoDerecha, ManoIzquierda }
+public enum ArticlePose { ManoDerecha, ManoIzquierda, Armadura }
 public class StatModifier : MonoBehaviour
 {
     public StatModification[] statModifications;
     public ArticlePose articlePose;
     public GameObject prefabArticle;
+    public ArmorMeshData armorMeshData;
 
     public void ApplyArticle(GameObject jugador)
     {
