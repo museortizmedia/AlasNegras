@@ -1312,7 +1312,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605248550}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.12, y: 0, z: 0}
+  m_LocalPosition: {x: -10.12, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3368,7 +3368,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756584145}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.96, y: 0, z: 0}
+  m_LocalPosition: {x: 10.63, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4512,7 +4512,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &405142526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4661,7 +4661,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405142525}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.19, y: 0, z: 0}
+  m_LocalPosition: {x: 6.51, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4720,7 +4720,7 @@ MonoBehaviour:
     PositivePoints: 0
     NegativePoints: 10
   articlePose: 1
-  prefabArticle: {fileID: 0}
+  prefabArticle: {fileID: 129334, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
   armorMeshData: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
@@ -8525,7 +8525,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &756584146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8549,7 +8549,7 @@ MonoBehaviour:
     PositivePoints: 0
     NegativePoints: 10
   articlePose: 0
-  prefabArticle: {fileID: 0}
+  prefabArticle: {fileID: 178832, guid: b429bb7ae3639b640acea828f986b6ab, type: 3}
   armorMeshData: {fileID: 0}
 --- !u!114 &756584147
 MonoBehaviour:
@@ -9124,7 +9124,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103214868}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.97, y: 0, z: 0}
+  m_LocalPosition: {x: -2.81, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10934,7 +10934,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1733710205}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.18, y: 0, z: 0}
+  m_LocalPosition: {x: 19.94, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11274,7 +11274,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977293681}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.61, y: 0, z: 0}
+  m_LocalPosition: {x: 1.96, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11750,7 +11750,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389136786}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.87, y: 0, z: 0}
+  m_LocalPosition: {x: 24.39, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12308,7 +12308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1103214869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12332,7 +12332,7 @@ MonoBehaviour:
     PositivePoints: 0
     NegativePoints: 10
   articlePose: 0
-  prefabArticle: {fileID: 0}
+  prefabArticle: {fileID: 100000, guid: d9846e0c0b6923d48a1a17570257c243, type: 3}
   armorMeshData: {fileID: 0}
 --- !u!114 &1103214870
 MonoBehaviour:
@@ -17054,7 +17054,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1605248551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17078,7 +17078,7 @@ MonoBehaviour:
     PositivePoints: 0
     NegativePoints: 10
   articlePose: 1
-  prefabArticle: {fileID: 0}
+  prefabArticle: {fileID: 100000, guid: d89325b804cfeec4993ebfcb917827e7, type: 3}
   armorMeshData: {fileID: 0}
 --- !u!114 &1605248552
 MonoBehaviour:
@@ -21387,7 +21387,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903557739}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -17.64, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21945,7 +21945,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931164018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.25, y: 0, z: 0}
+  m_LocalPosition: {x: 15.49, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
