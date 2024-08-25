@@ -4,7 +4,9 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("Movement Settings")]
+    [SerializeField] bool _canMove = true;
+    public bool CanMove { get => _canMove; set => _canMove = value; }
+    [Header("Movement Settings")]   
     public float walkSpeed = 5f;
     public float runSpeed = 8f;
     public float timeToRun = .5f;
@@ -19,8 +21,9 @@ public class PlayerMovement : MonoBehaviour
     private float moveTimer;
     private float verticalVelocity;
 
-    private void Start() {
-        if(characterController==null){characterController=GetComponent<CharacterController>();}
+    private void Start()
+    {
+        if (characterController == null) { characterController = GetComponent<CharacterController>(); }
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -30,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (movementInput.magnitude > 0)
+        if (CanMove && movementInput.magnitude > 0)
         {
             moveTimer += Time.deltaTime;
         }
@@ -42,48 +45,51 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float currentSpeed = walkSpeed;
-
-        if (movementInput.magnitude > 0 && moveTimer > timeToRun)
+        if (CanMove)
         {
-            currentSpeed = runSpeed;
-            animator.SetFloat("Speed", 2f); // 2 para correr
-        }
-        else if (movementInput.magnitude > 0)
-        {
-            animator.SetFloat("Speed", 1f); // 1 para caminar
-        }
-        else
-        {
-            animator.SetFloat("Speed", 0f); // 0 para idle
-        }
+            float currentSpeed = walkSpeed;
 
-        // Movimiento horizontal
-        Vector3 move = new Vector3(movementInput.x, 0f, movementInput.y) * currentSpeed;
-        // Convertir a la dirección local del personaje
-        move = transform.TransformDirection(move);
+            if (movementInput.magnitude > 0 && moveTimer > timeToRun)
+            {
+                currentSpeed = runSpeed;
+                animator.SetFloat("Speed", 2f); // 2 para correr
+            }
+            else if (movementInput.magnitude > 0)
+            {
+                animator.SetFloat("Speed", 1f); // 1 para caminar
+            }
+            else
+            {
+                animator.SetFloat("Speed", 0f); // 0 para idle
+            }
 
-        // Aplicar gravedad
-        if (characterController.isGrounded)
-        {
-            verticalVelocity = 0f;
-        }
-        else
-        {
-            verticalVelocity += gravity * Time.fixedDeltaTime;
-        }
+            // Movimiento horizontal
+            Vector3 move = new Vector3(movementInput.x, 0f, movementInput.y) * currentSpeed;
+            // Convertir a la dirección local del personaje
+            move = transform.TransformDirection(move);
 
-        move.y = verticalVelocity;
+            // Aplicar gravedad
+            if (characterController.isGrounded)
+            {
+                verticalVelocity = 0f;
+            }
+            else
+            {
+                verticalVelocity += gravity * Time.fixedDeltaTime;
+            }
 
-        // Mover al personaje
-        characterController.Move(move * Time.fixedDeltaTime);
+            move.y = verticalVelocity;
 
-        // Rotar el modelo hacia la dirección del movimiento
-        if (movementInput.magnitude > 0)
-        {
-            // Calcular la rotación hacia la dirección del movimiento
-            Quaternion targetRotation = Quaternion.LookRotation(new Vector3(move.x, 0f, move.z));
-            model.transform.rotation = Quaternion.Slerp(model.transform.rotation, targetRotation, Time.fixedDeltaTime * 10f);
+            // Mover al personaje
+            characterController.Move(move * Time.fixedDeltaTime);
+
+            // Rotar el modelo hacia la dirección del movimiento
+            if (movementInput.magnitude > 0)
+            {
+                // Calcular la rotación hacia la dirección del movimiento
+                Quaternion targetRotation = Quaternion.LookRotation(new Vector3(move.x, 0f, move.z));
+                model.transform.rotation = Quaternion.Slerp(model.transform.rotation, targetRotation, Time.fixedDeltaTime * 10f);
+            }
         }
     }
 }

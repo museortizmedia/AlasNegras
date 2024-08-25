@@ -9,6 +9,8 @@ public class FireController : MonoBehaviour
     public GameObject Reporter; 
     public UnityEvent OnSuccesFireEvent, OnTryFireEvent;
 
+    public UnityEvent OnStartedFireEvent, OnCanceledFireEvent;
+
     [Header("Statics references")]
     [SerializeField] private List<GameObject> _currentNearObjectsReadOnly = new();
     private List<IInteractiveObject> _currentNearObjects = new();
@@ -19,6 +21,7 @@ public class FireController : MonoBehaviour
 
     public void OnFire(InputAction.CallbackContext context)
     {
+        if (context.started){OnStartedFireEvent?.Invoke();}
         if (context.performed)
         {
             foreach (var interactiveObject in _currentNearObjects)
@@ -28,6 +31,7 @@ public class FireController : MonoBehaviour
             }
             OnTryFireEvent?.Invoke();
         }
+        if (context.canceled){OnCanceledFireEvent?.Invoke();}
     }
 
     private void OnTriggerEnter(Collider other)

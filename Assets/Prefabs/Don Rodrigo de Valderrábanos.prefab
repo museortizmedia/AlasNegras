@@ -5293,6 +5293,12 @@ MonoBehaviour:
           m_StringArgument: Slash
           m_BoolArgument: 0
         m_CallState: 2
+  OnStartedFireEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCanceledFireEvent:
+    m_PersistentCalls:
+      m_Calls: []
   _currentNearObjectsReadOnly: []
 --- !u!135 &4284029668634729784
 SphereCollider:
@@ -13507,8 +13513,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4577428808086241243}
   - component: {fileID: 2838596030370714780}
-  - component: {fileID: 1097184000306389489}
   - component: {fileID: 3143301282670173736}
+  - component: {fileID: 1097184000306389489}
   - component: {fileID: 5128462913530200564}
   m_Layer: 0
   m_Name: "Don Rodrigo de Valderr\xE1banos"
@@ -13534,7 +13540,7 @@ Transform:
   - {fileID: 2292099962545836365}
   - {fileID: 7741284735371810781}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &2838596030370714780
 CharacterController:
@@ -13562,24 +13568,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.9, z: 0}
---- !u!114 &1097184000306389489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657688432684766251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf00cf39f95261549a073a2924521b88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  walkSpeed: 5
-  runSpeed: 8
-  timeToRun: 1.5
-  gravity: -9.81
-  animator: {fileID: 1072846974009822551}
-  model: {fileID: 1092340671773719492}
 --- !u!114 &3143301282670173736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13659,6 +13647,25 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1097184000306389489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657688432684766251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf00cf39f95261549a073a2924521b88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canMove: 1
+  walkSpeed: 5
+  runSpeed: 8
+  timeToRun: 1.5
+  gravity: -9.81
+  animator: {fileID: 1072846974009822551}
+  model: {fileID: 1092340671773719492}
 --- !u!114 &5128462913530200564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24546,6 +24553,9 @@ MonoBehaviour:
       m_Calls: []
   OnTryFireEvent:
     m_PersistentCalls:
+      m_Calls: []
+  OnStartedFireEvent:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1072846974009822551}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
@@ -24558,6 +24568,45 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: Block
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1097184000306389489}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: set_CanMove
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Block
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnCanceledFireEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1072846974009822551}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: BlockExit
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1097184000306389489}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: set_CanMove
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: BlockExit
+          m_BoolArgument: 1
         m_CallState: 2
   _currentNearObjectsReadOnly: []
 --- !u!135 &9105898353586439463
