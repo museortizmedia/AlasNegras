@@ -71,6 +71,7 @@ public class MultiplayerManager : MonoBehaviour
         {
             GameObject player = Instantiate(playerPrefabs[players.Count], spawnPoint.position, Quaternion.identity);
             players.Add(player);
+            OnAvatarJoin?.Invoke(player);
 
             // Intentar obtener el componente PlayerInput
             if (player.TryGetComponent(out PlayerInput playerInput))
@@ -125,7 +126,9 @@ public class MultiplayerManager : MonoBehaviour
             // Desactivar el jugador y eliminar la referencia
             players.Remove(playerToRemove);
             deviceToPlayerMap.Remove(device);
-            Destroy(playerToRemove);
+            //Destroy(playerToRemove);
+            playerToRemove.SetActive(false);
+            OnAvatarLeft?.Invoke(playerToRemove);           
         }
     }
 

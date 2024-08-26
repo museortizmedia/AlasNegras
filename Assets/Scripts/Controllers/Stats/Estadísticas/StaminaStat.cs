@@ -21,17 +21,19 @@ public class StaminaStat : BaseStat
         float staminaIncrease = PositivePoints;
         float staminaDecrease = NegativePoints;
 
-        CurrentValue = StatInitialValue + staminaIncrease - staminaDecrease;
+        MaxValue = StatInitialValue + staminaIncrease - staminaDecrease;
 
         // Limitar el valor de CurrentValue entre 0 y MaxValue
         if (CurrentValue > MaxValue) CurrentValue = MaxValue;
         if (CurrentValue < 0) CurrentValue = 0;
+        
+    }
 
-        // Aplicar regeneración de estamina
-        CurrentValue += RegenRate * Time.deltaTime;
-        if (CurrentValue > MaxValue) CurrentValue = MaxValue;
-
-        PositivePoints = 0;
-        NegativePoints = 0;
+    private void Update() {
+        if(CurrentValue < MaxValue)
+        {
+            CurrentValue += RegenRate * Time.deltaTime;
+            if (CurrentValue > MaxValue) CurrentValue = MaxValue;
+        }
     }
 }

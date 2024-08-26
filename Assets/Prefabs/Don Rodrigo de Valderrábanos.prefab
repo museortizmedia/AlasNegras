@@ -5275,6 +5275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Reporter: {fileID: 1657688432684766251}
+  IsHit: 1
   OnSuccesFireEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -13561,7 +13562,7 @@ GameObject:
   - component: {fileID: 2840849285471522714}
   m_Layer: 0
   m_Name: "Don Rodrigo de Valderr\xE1banos"
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13583,7 +13584,7 @@ Transform:
   - {fileID: 2292099962545836365}
   - {fileID: 7741284735371810781}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &2838596030370714780
 CharacterController:
@@ -13727,6 +13728,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _assetDeEstadisticas: {fileID: 11400000, guid: 65f2a144bdea8874499804dc798c6a17,
     type: 2}
+  statContainer: {fileID: 0}
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2840849285471522714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13740,7 +13745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dodgeDistanceMultiplier: 4
-  dodgeDuration: 0.5
+  dodgeDuration: 0.2
   OnInitDodge:
     m_PersistentCalls:
       m_Calls:
@@ -24639,6 +24644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Reporter: {fileID: 1657688432684766251}
+  IsHit: 0
   OnSuccesFireEvent:
     m_PersistentCalls:
       m_Calls: []

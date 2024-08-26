@@ -6,7 +6,8 @@ using UnityEngine.InputSystem;
 public class FireController : MonoBehaviour
 {
     [Tooltip("Objeto que reportará ante la interacción")]
-    public GameObject Reporter; 
+    public GameObject Reporter;
+    public bool IsHit;
     public UnityEvent OnSuccesFireEvent, OnTryFireEvent;
 
     public UnityEvent OnStartedFireEvent, OnCanceledFireEvent;
@@ -26,7 +27,7 @@ public class FireController : MonoBehaviour
         {
             foreach (var interactiveObject in _currentNearObjects)
             {
-                interactiveObject.Interactuar(Reporter);
+                interactiveObject.Interactuar(Reporter, IsHit);
                 OnSuccesFireEvent?.Invoke();
             }
             OnTryFireEvent?.Invoke();

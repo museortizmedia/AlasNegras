@@ -1697,6 +1697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Reporter: {fileID: 5132563806458162256}
+  IsHit: 0
   OnSuccesFireEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -38406,6 +38407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Reporter: {fileID: 5132563806458162256}
+  IsHit: 1
   OnSuccesFireEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -39759,7 +39761,7 @@ GameObject:
   - component: {fileID: 8887144818376890102}
   m_Layer: 0
   m_Name: "Fray Mart\xEDn de Villanueva"
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39781,7 +39783,7 @@ Transform:
   - {fileID: 6591893621028759116}
   - {fileID: 5863902678416986832}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &533652569489110845
 CharacterController:
@@ -39921,6 +39923,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _assetDeEstadisticas: {fileID: 11400000, guid: 07101cf4c9c76b34bb47a79d23d46fc7,
     type: 2}
+  statContainer: {fileID: 0}
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8887144818376890102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39934,7 +39940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dodgeDistanceMultiplier: 4
-  dodgeDuration: 0.5
+  dodgeDuration: 0.2
   OnInitDodge:
     m_PersistentCalls:
       m_Calls:

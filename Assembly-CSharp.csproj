@@ -73,12 +73,15 @@
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\AnimationParameters.cs" />
     <Compile Include="Assets\Scripts\Helpers\PlayerInputControlChanger.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Extensions\CollectionExtensions.cs" />
+    <Compile Include="Assets\Scripts\Component\NavMesh\NavMesh_FollowTarget.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\RPGCharacterAnimatorEvents.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Examples\PlayerCamera.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\RPGCharacterController.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Character\Attack.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\InstantActionHandler.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Demo Elements\Code\GUIControls.cs" />
+    <Compile Include="Assets\Scripts\Component\NavMesh\NavMesh_KnockbackAgent.cs" />
+    <Compile Include="Assets\Scripts\Component\Animator\AnimatorFloatSetter.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\AnimatorTrigger.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\DoubleJump.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\HitType.cs" />
@@ -101,6 +104,7 @@
     <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\SpeedStat.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\RPGCharacterMovementController.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\HitContext.cs" />
+    <Compile Include="Assets\Scripts\Controllers\Movement\DodgeMovement.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Jump.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\AnimatorWeapon.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Examples\PlayerInputController.cs" />
@@ -114,17 +118,18 @@
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Demo Elements\Code\NoJumpSlime.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Examples\Gravity.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\DiveRollType.cs" />
+    <Compile Include="Assets\Scripts\Controllers\Movement\PlayerMovement.cs" />
     <Compile Include="Assets\Packages\FST\DemonWings\DemoScripts\DemoAnimationSelector.cs" />
     <Compile Include="Assets\Scripts\Component\Animator\AnimationBoolSetter.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\BSPTree.cs" />
     <Compile Include="Assets\Scripts\Controllers\HUD\HUD_StatFinder.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperCollision.cs" />
-    <Compile Include="Assets\Scripts\Controllers\DodgeMovement.cs" />
     <Compile Include="Assets\Scripts\Controllers\Stats\StatModifier.cs" />
     <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\DefenseStat.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperMath.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\SimpleActionHandler.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Knockback.cs" />
+    <Compile Include="Assets\Scripts\Component\NearTrigger.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\Side.cs" />
     <Compile Include="Assets\Packages\PolygonFantasyHeroCharacters\Scripts\CharacterRandomizer.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Weapon\SwitchWeapon.cs" />
@@ -132,9 +137,9 @@
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\CharacterState.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Character\SlowTime.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Extensions\ControllerExtensions.cs" />
-    <Compile Include="Assets\Scripts\Controllers\PlayerMovement.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Idle.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\RPGCharacterNavigationController.cs" />
+    <Compile Include="Assets\Scripts\Controllers\Enemy\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\Controllers\InteractiveObject.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\KnockdownType.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\IgnoredCollider.cs" />
@@ -157,6 +162,7 @@
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperStateMachine.cs" />
     <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\StaminaStat.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\DebugDraw.cs" />
+    <Compile Include="Assets\Scripts\Component\Animator\AnimatorIntSetter.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\GetHit.cs" />
     <Compile Include="Assets\Scripts\Controllers\InteractiveEnemie.cs" />
     <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\HealthStat.cs" />
@@ -1025,6 +1031,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1113,6 +1123,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1141,6 +1155,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
@@ -1151,6 +1169,10 @@
     </Reference>
     <Reference Include="Cinemachine">
       <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">

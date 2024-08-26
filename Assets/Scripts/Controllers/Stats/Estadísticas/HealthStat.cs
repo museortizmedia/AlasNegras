@@ -1,9 +1,13 @@
+using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class HealthStat : BaseStat
 {
     public float CurrentValue;
     public float MaxValue;
+
+    public Action OnLooseAllHealth; 
 
      // Método de inicialización
     public void Initialize(StatController statController, string name, float initialValue, float maxValue)
@@ -26,6 +30,7 @@ public class HealthStat : BaseStat
     public void MakeDamage(float amount)
     {
         CurrentValue -= amount;
+        if(CurrentValue<=0){OnLooseAllHealth?.Invoke();}
     }
 
     #endregion
