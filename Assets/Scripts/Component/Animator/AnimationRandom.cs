@@ -77,7 +77,7 @@ public class AnimationRandom : MonoBehaviour
 
         // Seleccionar aleatoriamente un índice de ataque
         int randomIndex = Random.Range(0, animationClips.Count);
-        Debug.Log(randomIndex);
+        //Debug.Log(randomIndex);
 
         // Configurar el parámetro de índice en el Animator
         anim.SetFloat(attackIndexParameter, randomIndex + 1);

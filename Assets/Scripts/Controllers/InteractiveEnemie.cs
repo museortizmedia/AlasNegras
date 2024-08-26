@@ -9,6 +9,7 @@ public class InteractiveEnemie : MonoBehaviour, IInteractiveObject
 
     public void Interactuar(GameObject from)
     {
+        Debug.Log("Me están golpeando", transform);
         gameObject.GetComponent<StatController>().GetStat<HealthStat>()?.MakeDamage(from.GetComponent<StatController>().GetStat<DamageStat>().CurrentValue);
     }
 

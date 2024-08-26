@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 public class MultiplayerManager : MonoBehaviour
 {
@@ -13,8 +14,12 @@ public class MultiplayerManager : MonoBehaviour
     public CinemachineVirtualCamera virtualCamera; // Referencia a la cámara virtual de Cinemachine
     public Transform cameraTarget; // Referencia al objeto que la cámara seguirá
 
-    private List<GameObject> players = new List<GameObject>();
-    private Dictionary<InputDevice, GameObject> deviceToPlayerMap = new Dictionary<InputDevice, GameObject>();
+    [Header("Events")]
+    public UnityEvent<GameObject> OnAvatarJoin;
+    public UnityEvent<GameObject> OnAvatarLeft;
+
+    private List<GameObject> players = new();
+    private Dictionary<InputDevice, GameObject> deviceToPlayerMap = new();
 
     private void OnEnable()
     {
