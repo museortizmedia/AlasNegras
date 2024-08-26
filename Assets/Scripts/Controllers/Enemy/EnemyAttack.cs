@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(EnemyController))]
 public class EnemyAttack : MonoBehaviour
 {
     public float attackCooldown = 2f;  // Tiempo entre ataques
@@ -10,6 +11,7 @@ public class EnemyAttack : MonoBehaviour
 
     public UnityEvent OnAttack;
 
+    [SerializeField] EnemyController enemyController;
     private NavMeshAgent agent;
     private NavMesh_FollowTarget followTarget;
 
@@ -17,8 +19,9 @@ public class EnemyAttack : MonoBehaviour
 
     void Awake()
     {
-        agent = GetComponent<NavMeshAgent>();
-        followTarget = GetComponent<NavMesh_FollowTarget>();
+        enemyController = GetComponent<EnemyController>();
+        agent = enemyController.navMeshAgent;
+        followTarget = enemyController.enemyFollowTarget;
     }
 
     void Update()
@@ -71,7 +74,7 @@ public class EnemyAttack : MonoBehaviour
             // Hacer daño = daño enemigo - defensa player
             float EnemyDamage = GetComponent<StatController>().GetStat<DamageStat>().CurrentValue;
             float PlayerDefense = playerStatController.GetStat<DefenseStat>().CurrentValue;
-            
+
             playerStatController.GetStat<HealthStat>().MakeDamage( EnemyDamage - PlayerDefense );
         }
         OnAttack?.Invoke();

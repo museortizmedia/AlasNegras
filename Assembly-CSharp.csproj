@@ -140,6 +140,7 @@
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Idle.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\RPGCharacterNavigationController.cs" />
     <Compile Include="Assets\Scripts\Controllers\Enemy\EnemyAttack.cs" />
+    <Compile Include="Assets\Scripts\Controllers\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Controllers\InteractiveObject.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\KnockdownType.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\IgnoredCollider.cs" />
@@ -164,7 +165,6 @@
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\DebugDraw.cs" />
     <Compile Include="Assets\Scripts\Component\Animator\AnimatorIntSetter.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\GetHit.cs" />
-    <Compile Include="Assets\Scripts\Controllers\InteractiveEnemie.cs" />
     <Compile Include="Assets\Scripts\Controllers\Stats\Estadísticas\HealthStat.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperGround.cs" />
     <Compile Include="Assets\Packages\ExplosiveLLC\SuperCharacterController\Code\Core\SuperCollisionType.cs" />

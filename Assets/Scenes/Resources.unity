@@ -3909,6 +3909,7 @@ GameObject:
   - component: {fileID: 348553689}
   - component: {fileID: 348553688}
   - component: {fileID: 348553687}
+  - component: {fileID: 348553697}
   - component: {fileID: 348553696}
   m_Layer: 0
   m_Name: Sombra
@@ -4177,9 +4178,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5022dccedac70da4cbd4fc1cc7ab12a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyStatController: {fileID: 0}
+  enemyNearTrigger: {fileID: 0}
+  enemyFollowTarget: {fileID: 0}
+  enemyKnockback: {fileID: 0}
+  enemyAttack: {fileID: 0}
+  navMeshAgent: {fileID: 0}
   OnReciveDamage:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348553697}
+        m_TargetAssemblyTypeName: NavMesh_KnockbackAgent, Assembly-CSharp
+        m_MethodName: ApplyKnockback
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnPlayerEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -4216,6 +4235,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackCooldown: 0.5
   proximityRange: 1
+  OnAttack:
+    m_PersistentCalls:
+      m_Calls: []
+  enemyController: {fileID: 0}
+--- !u!114 &348553697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348553686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e784bd0e3faae147b805c3c6f7723d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockbackForce: 10
+  knockbackDuration: 0.5
 --- !u!1001 &348660032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24402,22 +24439,22 @@ PrefabInstance:
     - target: {fileID: 7646088821086569271, guid: fda6f3040da5a3948b6eb238b2815ac5,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000023030614
+      value: -0.000000023030625
       objectReference: {fileID: 0}
     - target: {fileID: 7646088821086569271, guid: fda6f3040da5a3948b6eb238b2815ac5,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000007855544
+      value: 0.000000007855547
       objectReference: {fileID: 0}
     - target: {fileID: 7912744238282590588, guid: fda6f3040da5a3948b6eb238b2815ac5,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000023030614
+      value: -0.000000023030625
       objectReference: {fileID: 0}
     - target: {fileID: 7912744238282590588, guid: fda6f3040da5a3948b6eb238b2815ac5,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000007855544
+      value: 0.000000007855547
       objectReference: {fileID: 0}
     - target: {fileID: 8526921732249599393, guid: fda6f3040da5a3948b6eb238b2815ac5,
         type: 3}

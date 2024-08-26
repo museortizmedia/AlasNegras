@@ -22,6 +22,10 @@ public class NavMesh_KnockbackAgent : MonoBehaviour
     {
         StartCoroutine(KnockbackRoutine(hitDirection));
     }
+    public void ApplyKnockback()
+    {
+        StartCoroutine(KnockbackRoutine(-transform.forward));
+    }
 
     private IEnumerator KnockbackRoutine(Vector3 hitDirection)
     {
