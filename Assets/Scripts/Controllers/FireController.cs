@@ -16,13 +16,14 @@ public class FireController : MonoBehaviour
     [SerializeField] private List<GameObject> _currentNearObjectsReadOnly = new();
     private List<IInteractiveObject> _currentNearObjects = new();
 
-    private void Start() {
-        if(Reporter==null){Reporter = transform.parent.gameObject; }
+    private void Start()
+    {
+        if (Reporter == null) { Reporter = transform.parent.gameObject; }
     }
 
     public void OnFire(InputAction.CallbackContext context)
     {
-        if (context.started){OnStartedFireEvent?.Invoke();}
+        if (context.started) { OnStartedFireEvent?.Invoke(); }
         if (context.performed)
         {
             foreach (var interactiveObject in _currentNearObjects)
@@ -32,7 +33,7 @@ public class FireController : MonoBehaviour
             }
             OnTryFireEvent?.Invoke();
         }
-        if (context.canceled){OnCanceledFireEvent?.Invoke();}
+        if (context.canceled) { OnCanceledFireEvent?.Invoke(); }
     }
 
     private void OnTriggerEnter(Collider other)

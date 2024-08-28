@@ -26,7 +26,7 @@ public class EnemyAttack : MonoBehaviour
 
     void Update()
     {
-        if (followTarget.seguir)
+        if (followTarget!=null && followTarget.seguir)
         {
             // Verificar si el agente ha alcanzado su destino y se ha detenido
             if (!agent.pathPending && HasReachedDestination())

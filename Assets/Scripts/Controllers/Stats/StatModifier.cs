@@ -36,6 +36,7 @@ public class StatModifier : MonoBehaviour
 
     public void ApplyArticle(GameObject jugador)
     {
+        if(!enabled) return;
         //Debug.Log($"aplicando objeto para {jugador.name}");
         if (jugador.TryGetComponent<StatController>(out StatController playerStatController))
         {

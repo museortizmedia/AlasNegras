@@ -1,3 +1,4 @@
+//#define DEBUG
 using UnityEngine;
 using UnityEngine.Events;
 public interface IInteractiveObject
@@ -14,19 +15,28 @@ public class InteractiveObject : MonoBehaviour, IInteractiveObject
 
     public void Interactuar(GameObject from, bool IsHit)
     {
-        //Debug.Log($"{from.name} interactuó conmigo!", transform);
-        OnInteractive?.Invoke(from);
+        #if DEBUG
+        Debug.Log($"{from.name} interactuó conmigo!", transform);
+        #endif
+        if(gameObject.activeSelf)
+        {
+            OnInteractive?.Invoke(from);
+        }
     }
 
     public void OnEnterPlayer()
     {
-        //Debug.Log($"Aqui estoy", transform);
+        #if DEBUG
+        Debug.Log($"Aqui estoy", transform);
+        #endif
         OnPlayerArrive?.Invoke();
     }
 
     public void OnExitPlayer()
     {
-        //Debug.Log($"Me voy", transform);
+        #if DEBUG
+        Debug.Log($"Me voy", transform);
+        #endif
         OnPlayerLeave?.Invoke();
     }
 }
