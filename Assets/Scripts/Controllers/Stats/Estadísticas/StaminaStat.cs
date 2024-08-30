@@ -1,10 +1,22 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class StaminaStat : BaseStat
 {
-    public float CurrentValue;
+    [SerializeField] float _currentValue;
+    public float CurrentValue
+    {
+        get => _currentValue;
+        set
+        {
+        _currentValue = value;
+        OnCurrentValueChange?.Invoke(value);
+        }
+    }
     public float MaxValue;
     public float RegenRate;
+
+    public UnityEvent<float> OnCurrentValueChange = new();
 
      // Método de inicialización
     public void Initialize(StatController statController, string name, float initialValue, float maxValue, float regenRate)

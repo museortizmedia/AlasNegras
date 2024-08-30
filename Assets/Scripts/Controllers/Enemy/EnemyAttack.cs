@@ -12,12 +12,12 @@ public class EnemyAttack : MonoBehaviour
     public UnityEvent OnAttack;
 
     [SerializeField] EnemyController enemyController;
-    private NavMeshAgent agent;
-    private NavMesh_FollowTarget followTarget;
+    [SerializeField] NavMeshAgent agent;
+    [SerializeField] NavMesh_FollowTarget followTarget;
 
     private bool hasReachedProximity = false;
 
-    void Awake()
+    void Start()
     {
         enemyController = GetComponent<EnemyController>();
         agent = enemyController.navMeshAgent;

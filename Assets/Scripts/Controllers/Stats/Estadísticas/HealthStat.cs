@@ -4,12 +4,22 @@ using UnityEngine.Events;
 
 public class HealthStat : BaseStat
 {
-    public float CurrentValue;
+    [SerializeField] float _currentValue;
+    public float CurrentValue
+    {
+        get => _currentValue;
+        set
+        {
+            _currentValue = value;
+            OnCurrentValueChange?.Invoke(value);
+        }
+    }
     public float MaxValue;
 
-    public Action OnLooseAllHealth; 
+    public Action OnLooseAllHealth;
+    public UnityEvent<float> OnCurrentValueChange = new();
 
-     // Método de inicialización
+    // Método de inicialización
     public void Initialize(StatController statController, string name, float initialValue, float maxValue)
     {
         base.Initialize(statController, name, initialValue);
@@ -17,7 +27,7 @@ public class HealthStat : BaseStat
         CurrentValue = initialValue;
         MaxValue = maxValue;
     }
-
+    
     protected override void UpdateStat()
     {
         float healthIncrease = PositivePoints;
@@ -30,7 +40,7 @@ public class HealthStat : BaseStat
     public void MakeDamage(float amount)
     {
         CurrentValue -= amount;
-        if(CurrentValue<=0){OnLooseAllHealth?.Invoke();}
+        if (CurrentValue <= 0) { OnLooseAllHealth?.Invoke(); }
     }
 
     #endregion

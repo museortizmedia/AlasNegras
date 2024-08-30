@@ -10,7 +10,7 @@ using UnityEngine.Events;
 [RequireComponent(typeof(NavMeshAgent))]
 public class EnemyController : MonoBehaviour, IInteractiveObject
 {
-    [Header("Components - Read Only")]
+    [Header("Components")]
     public StatController enemyStatController;
     public NearTrigger enemyNearTrigger;
     public NavMesh_FollowTarget enemyFollowTarget;
@@ -24,7 +24,7 @@ public class EnemyController : MonoBehaviour, IInteractiveObject
     public UnityEvent OnPlayerEnter;
     public UnityEvent OnPlayerExit;
 
-    private void Start()
+    private void Awake()
     {
         enemyStatController = GetComponent<StatController>();
         enemyNearTrigger = GetComponent<NearTrigger>();
@@ -59,15 +59,17 @@ public class EnemyController : MonoBehaviour, IInteractiveObject
         // No realiza daño
         if(!IsHit)
         {
-            // 
+            // Inhibir el ataque del enemigo
         }
     }
 
+    // Cuando el player detecta al enemigo
     public void OnEnterPlayer()
     {
         OnPlayerEnter?.Invoke();
     }
 
+    // Cuando el player deja de detectar al enemigo
     public void OnExitPlayer()
     {
         OnPlayerExit?.Invoke();
