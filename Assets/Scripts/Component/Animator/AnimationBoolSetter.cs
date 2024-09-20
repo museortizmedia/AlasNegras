@@ -16,7 +16,7 @@ public class AnimatorBoolSetter : MonoBehaviour
         if (animator != null)
         {
             animator.SetBool(parameterName, true);
-            Debug.Log($"{parameterName} en true");
+            //Debug.Log($"{parameterName} en true");
         }
         else
         {
@@ -30,7 +30,7 @@ public class AnimatorBoolSetter : MonoBehaviour
         if (animator != null)
         {
             animator.SetBool(parameterName, false);
-            Debug.Log($"{parameterName} en false");
+            //Debug.Log($"{parameterName} en false");
         }
         else
         {

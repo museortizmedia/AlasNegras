@@ -1,12 +1,16 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class StatController : MonoBehaviour
 {
     [SerializeField] private StatGroupData _assetDeEstadisticas;
-    GameObject statContainer;
+    [SerializeField] GameObject statContainer;
     private List<BaseStat> _stats = new();
+
+    [Header("Eventos HealthStat")]
+    public UnityEvent OnDeath;
 
     private readonly Dictionary<StatType, Type> _statTypeToClassMap = new()
     {
@@ -43,6 +47,7 @@ public class StatController : MonoBehaviour
                 else if (stat is HealthStat healthStat)
                 {
                     healthStat.Initialize(this, "Health", statData.initialValue, statData.maxValue);
+                    healthStat.OnLooseAllHealth = () => OnDeath?.Invoke();
                 }
                 else if (stat is StaminaStat staminaStat)
                 {

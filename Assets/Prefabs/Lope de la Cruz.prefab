@@ -2759,6 +2759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Reporter: {fileID: 8880823912797286170}
+  IsHit: 0
   OnSuccesFireEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -26118,6 +26119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Reporter: {fileID: 8880823912797286170}
+  IsHit: 1
   OnSuccesFireEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -67610,7 +67612,7 @@ GameObject:
   - component: {fileID: 6650657995155190330}
   m_Layer: 0
   m_Name: Lope de la Cruz
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67632,7 +67634,7 @@ Transform:
   - {fileID: 3176395588871126000}
   - {fileID: 1236915743075145034}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &6395770941902245197
 CharacterController:
@@ -67772,6 +67774,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _assetDeEstadisticas: {fileID: 11400000, guid: 1b2fce3e30a80734dbf2546e6be95918,
     type: 2}
+  statContainer: {fileID: 0}
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &6650657995155190330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67785,7 +67791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dodgeDistanceMultiplier: 4
-  dodgeDuration: 0.5
+  dodgeDuration: 0.2
   OnInitDodge:
     m_PersistentCalls:
       m_Calls:
